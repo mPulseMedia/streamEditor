@@ -1,4 +1,4 @@
-<a name="toc"></a>
+<a name="top"></a>
 
 # streamEditor API v1.0
 
