@@ -11,8 +11,6 @@ The following is an index of nametags through the API and site projects: [http:/
 
 ------------------------------------------------
 <a name="moment_object"></a>
-[<](#top)
-
 ## Moments
 
 Methods and nametags:
@@ -27,8 +25,6 @@ Methods and nametags:
 
 ------------------------------------------------
 <a name="playlist_object"></a>
-[<](#top)
-
 ## Playlist
 
 Methods and nametags:
@@ -39,14 +35,12 @@ Methods and nametags:
  - [pNext](http://themoment.tv/nametag.php#pNext) - display playlist atop a VOD
  - [pUnified](http://themoment.tv/nametag.php#pUnified) - display drawer to create or play playlist atop VOD or live stream
 - Used by theMoment.tv site only:
- - [pEdit](http://themoment.tv/nametag.php#pEdit) - both page and pMerch-component to create and edit playlist 
+ - [pEdit](http://themoment.tv/nametag.php#pEdit) - both page and pMerch-component to create and edit playlist
  - [pPlay](http://themoment.tv/nametag.php#mPlay) - page to play individual playlist
  - [pPromo](http://themoment.tv/nametag.php#pPromo) - display recent popular playlists on top of feed page
 
 ------------------------------------------------
 <a name="user_object"></a>
-[<](#top)
-
 ## Users
 
 Methods and nametags:
@@ -58,9 +52,7 @@ Methods and nametags:
 
 ------------------------------------------------
 <a name="asset_object"></a>
-[<](#top)
-
-## Asset
+## Assets
 
 Assets refer to the underlying VOD asset of videos and live streams.
 
@@ -71,8 +63,6 @@ Methods and nametags:
 
 ------------------------------------------------
 <a name="site_object"></a>
-[<](#top)
-
 ## Site
 
 Methods and nametags:
@@ -93,7 +83,7 @@ Methods and nametags:
  - [instruct](http://themoment.tv/nametag.php#instruct) - display inserted instructions
 
 - partner video services
- - [twitch](http://themoment.tv/nametag.php#twitch) - methods specific to twitch 
+ - [twitch](http://themoment.tv/nametag.php#twitch) - methods specific to twitch
  - [youtube](http://themoment.tv/nametag.php#youtube) - methods specific to youtube
  - [partner](http://themoment.tv/nametag.php#partner) - abstracted partner connected to calls for each real partner
  - [player](http://themoment.tv/nametag.php#player) - abstracted video player connected to calls for partner-specific players
