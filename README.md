@@ -2,7 +2,7 @@
 
 # streamEditor API v1.0
 
-The streamEditor library adds functionality to live streams and video players. It allows users to mark highlights (or moments) and group them into remixes (or playlists) to replay and share. Remixes let users jump to the best parts of videos and streams, even while the live event is still happening.
+The streamEditor library adds functionality to live streams and video players. It allows users to mark highlights (or moments) and group them into remixes (or playlists) to replay and share -- even while the live event is still happening.
 
 <img src="/doc/v1/screenshot.png" width="75%" height="75%" />
 
