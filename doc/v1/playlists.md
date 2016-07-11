@@ -1,5 +1,5 @@
 <a name="toc"></a>
-[< README](/README.md#toc)
+[< README](/README.md#top)
 
 # Playlists
 
@@ -16,7 +16,7 @@ Playlists, or 'remixes' as presented to users, are a series of moments/highlight
 
 ------------------------------------------------
 <a name="playlist_create_endpoint"></a>
-[<](#toc)
+[<](#top)
 
 ## POST /v1/playlists
 
@@ -87,7 +87,7 @@ auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/playlists
 
 ------------------------------------------------
 <a name="playlist_update_endpoint"></a>
-[<](#toc)
+[<](#top)
 
 ## POST /v1/playlists/:id
 
@@ -150,7 +150,7 @@ auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/playlists/272
 
 ------------------------------------------------
 <a name="playlist_get_endpoint"></a>
-[<](#toc)
+[<](#top)
 
 ## GET  /v1/playlists/:id
 
@@ -310,7 +310,7 @@ curl -X GET https://api.themoment.tv/v1/playlists/2728?limit=10
 
 ------------------------------------------------
 <a name="playlist_partner_asset_endpoint"></a>
-[<](#toc)
+[<](#top)
 
 ## POST /v1/playlists/:partner/asset/:id
 
@@ -443,7 +443,7 @@ curl -X GET https://api.themoment.tv/v1/playlists/twitch/asset/v66318170?limit=1
 
 ------------------------------------------------
 <a name="playlist_partner_channel_endpoint"></a>
-[<](#toc)
+[<](#top)
 
 ## POST /v1/playlists/:partner/channel/:id
 
@@ -571,7 +571,7 @@ curl -X GET https://api.themoment.tv/v1/playlists/twitch/channel/riotgames?limit
 
 ------------------------------------------------
 <a name="playlist_moment_position_set_endpoint"></a>
-[<](#toc)
+[<](#top)
 
 ## POST /v1/playlists/:id/moment_position_set
 

@@ -1,5 +1,5 @@
 <a name="toc"></a>
-[< README](/README.md#toc)
+[< README](/README.md#top)
 
 # Miscellaneous
 

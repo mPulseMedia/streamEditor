@@ -10,14 +10,14 @@ The streamEditor library adds functionality to live streams and video players. I
 
 - [Overview](/doc/v1/overview.md) - Overview of API organization and common patterns
 
-- [Objects](/doc/v1/objects.md#toc) - Introduction to key Objects, Methods & Nametags throughout the code
+- [Objects](/doc/v1/objects.md#top) - Introduction to key Objects, Methods & Nametags throughout the code
 
 #### API Endpoints
 
-- [Moment Endpoints](/doc/v1/moments.md#toc) - APIs for individual moments (or highlights)
+- [Moment Endpoints](/doc/v1/moments.md#top) - APIs for individual moments (or highlights)
 
-- [Playlist Endpoints](/doc/v1/playlists.md#toc) - APIs for playlists (or remixes, which are sequences of moments)
+- [Playlist Endpoints](/doc/v1/playlists.md#top) - APIs for playlists (or remixes, which are sequences of moments)
 
-- [User Endpoints](/doc/v1/users.md#toc) - APIs for users
+- [User Endpoints](/doc/v1/users.md#top) - APIs for users
 
-- [Other Endpoints](/doc/v1/misc.md#toc) - Other related URLs and API calls
+- [Other Endpoints](/doc/v1/misc.md#top) - Other related URLs and API calls

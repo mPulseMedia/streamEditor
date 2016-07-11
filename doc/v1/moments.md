@@ -1,5 +1,5 @@
 <a name="toc"></a>
-[< README](/README.md#toc)
+[< README](/README.md#top)
 
 # Moments
 
@@ -14,7 +14,7 @@ Moments are individual highlights within a live stream/video.
 
 ------------------------------------------------
 <a name="moment_create_endpoint"></a>
-[<](#toc)
+[<](#top)
 
 ## POST /v1/moments
 
@@ -135,7 +135,7 @@ timestamp=146806615" https://api.themoment.tv/v1/moments
 
 ------------------------------------------------
 <a name="moment_update_endpoint"></a>
-[<](#toc)
+[<](#top)
 
 ## POST /v1/moments/:id
 
@@ -230,7 +230,7 @@ auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/moments/21061
 ```
 ------------------------------------------------
 <a name="moment_get_endpoint"></a>
-[<](#toc)
+[<](#top)
 
 ## GET /v1/moments/:id
 
@@ -298,7 +298,7 @@ curl -X GET https://api.themoment.tv/v1/moments/2599
 ------------------------------------------------
 
 <a name="moment_partner_asset_endpoint"></a>
-[<](#toc)
+[<](#top)
 
 ## GET /v1/moments/:partner/asset/:id
 

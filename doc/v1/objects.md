@@ -1,5 +1,5 @@
 <a name="toc"></a>
-[< README](/README.md#toc)
+[< README](/README.md#top)
 
 # Objects, Methods & Nametags
 
@@ -11,7 +11,7 @@ The following is an index of nametags through the API and site projects: [http:/
 
 ------------------------------------------------
 <a name="moment_object"></a>
-[<](#toc)
+[<](#top)
 
 ## Moments
 
@@ -27,7 +27,7 @@ Methods and nametags:
 
 ------------------------------------------------
 <a name="playlist_object"></a>
-[<](#toc)
+[<](#top)
 
 ## Playlist
 
@@ -45,7 +45,7 @@ Methods and nametags:
 
 ------------------------------------------------
 <a name="user_object"></a>
-[<](#toc)
+[<](#top)
 
 ## Users
 
@@ -58,7 +58,7 @@ Methods and nametags:
 
 ------------------------------------------------
 <a name="asset_object"></a>
-[<](#toc)
+[<](#top)
 
 ## Asset
 
@@ -71,7 +71,7 @@ Methods and nametags:
 
 ------------------------------------------------
 <a name="site_object"></a>
-[<](#toc)
+[<](#top)
 
 ## Site
 

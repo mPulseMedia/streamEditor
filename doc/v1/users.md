@@ -1,5 +1,5 @@
 <a name="toc"></a>
-[< README](/README.md#toc)
+[< README](/README.md#top)
 
 # Users
 
@@ -15,7 +15,7 @@ APIs for end-users and and app clients.
 
 ------------------------------------------------
 <a name="user_create_endpoint"></a>
-[<](#toc)
+[<](#top)
 
 ## POST /v1/users
 
@@ -57,7 +57,7 @@ display_name=Paul Smith" https://api.themoment.tv/v1/users
 
 ------------------------------------------------
 <a name="user_get_endpoint"></a>
-[<](#toc)
+[<](#top)
 
 ## GET /v1/users/:id/
 
@@ -87,7 +87,7 @@ curl -X GET https://api.themoment.tv/v1/users/508
 ```
 
 ------------------------------------------------
-<a name="user_playlist_get_endpoint"></a>[<](#toc)
+<a name="user_playlist_get_endpoint"></a>[<](#top)
 
 ## GET /v1/users/:id/playlists
 
@@ -158,7 +158,7 @@ curl -X GET https://api.themoment.tv/v1/users/pyLvpx3XTGXfJG0OtlBnOZpWgLgFi9RIHC
 
 ------------------------------------------------
 <a name="user_history_get_endpoint"></a>
-[<](#toc)
+[<](#top)
 
 ## GET /v1/users/:id/history
 
@@ -230,7 +230,7 @@ curl -X GET https://api.themoment.tv/v1/users/pyLvpx3XTGXfJG0OtlBnOZpWgLgFi9RIHC
 ------------------------------------------------
 
 <a name="user_history_add_endpoint"></a>
-[<](#toc)
+[<](#top)
 
 ## POST /v1/users/:id/user_history_add
 

@@ -1,5 +1,5 @@
 <a name="toc"></a>
-[< README](/README.md#toc)
+[< README](/README.md#top)
 
 # Overview
 
@@ -7,8 +7,6 @@ APIs for end-users and and app clients.
 
 ------------------------------------------------
 <a name="api_intro"></a>
-[<](#toc)
-
 #### Introduction
 
 The streamEditor library adds functionality to  live streams and video players. It allows users to mark highlights (or moments) and group them into remixes (or playlists). These remixes let users jump to the best parts of videos and streams, even while they event is still happening.
@@ -17,14 +15,12 @@ The streamEditor library adds functionality to  live streams and video players. 
 
 The companion to theMoment.tv website is the [browser extension](http://j.mp/moment_chrome_1). The extension adds functionality to mark highlights and replay remixes of other sites (YouTube, Twitch).
 
-The streamEditor library may be added to a 3rd party website. This will add the same functionality as the extension to the website without requiring that end-users have the extension.
+The [streamEditor library](http://streamEditor.tv) may be added to a 3rd party website. This will add the same functionality as the extension to the website without requiring that end-users have the extension.
 
 ![Architecture Diagram](/doc/v1/arch_diagram.png)
 
 ------------------------------------------------
 <a name="arch_environment"></a>
-[<](#toc)
-
 #### Environments, Instances and Databases
 
 streamEditor is served via EC2 on Amazon Web Services.
@@ -65,8 +61,6 @@ supportInst contains:
 
 ------------------------------------------------
 <a name="arch_repository"></a>
-[<](#toc)
-
 #### Repositories & Code
 
 The gitHub repositories include:
