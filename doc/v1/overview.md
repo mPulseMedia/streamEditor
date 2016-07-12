@@ -1,4 +1,4 @@
-<a name="toc"></a>
+<a name="top"></a>
 [< README](/README.md#top)
 
 # Overview
