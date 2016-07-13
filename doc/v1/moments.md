@@ -28,9 +28,9 @@ Create a new moment.
 
 | Name | Required | Type | Description |
 | ---- | ---- | ---- | ---- |
-| time_start | required | number | Starting time of the moment. For live channel it should be the UTC timestamp |
 | asset_source | required | string | Source of the moment (twitch, youtube, facebook, vimeo etc.) |
 | asset_resource_id | required | string | Partner specific ID of the asset |
+| time_start | required | number | Starting time of the moment. For live channel it should be the UTC timestamp |
 | tag | required | string | Tag of the moment |
 | auid | required | string | Identifier of the client |
 | | | |
@@ -49,22 +49,11 @@ Create a new moment.
 
 ```bash
 curl --data "\
-time_start=1468066157&\
 asset_source=twitch&\
 asset_resource_id=v77076652&\
-asset_title=EU LCS Summer - Week 6 Day 2: Fnatic vs. Unicorns Of Love (EULCS2)&\
-asset_publisher=EULCS2&\
-asset_publisher_original_id=eulcs2&\
-asset_duration=11245&\
-asset_thumb=https://static-cdn.jtvnw.net/previews-ttv/live_user_eulcs2-320x180.jpg&\
-asset_url=https://secure.twitch.tv/eulcs2/v/77076652&\
-thumb_info_image=https://static-cdn.jtvnw.net/previews-ttv/live_user_eulcs2-320x180.jpg&\
-asset_status=recording&\
-asset_recorded_at=2016-07-09T08:56:13Z&\
-game=League of Legends&\
-auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m&\
+time_start=1468066157&\
 tag=LOL Rampage&\
-timestamp=146806615" https://api.themoment.tv/v1/moments
+auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/moments
 ```
 
 #### Example Response
