@@ -8,7 +8,7 @@ The streamEditor library adds functionality to live streams and video players. I
 
 #### Introduction
 
-- [Overview](/doc/v1/overview.md#top) - Overview of API organization and common patterns
+- [Overview](/doc/v1/overview.md#top) - Overview of API organization using theMoment example site, and common patterns
 
 - [Objects](/doc/v1/objects.md#top) - Introduction to key Objects, Methods & Nametags throughout the code
 
