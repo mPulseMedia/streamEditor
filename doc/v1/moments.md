@@ -5,12 +5,12 @@
 
 Moments are individual highlights within a live stream/video.
 
-| Endpoint | Description |
-| -------- | ----------- |
-| [[POST] https://api.theMoment.tv/v1/moments](#moment_create_endpoint) | Create a new moment |
-| [[POST] https://api.theMoment.tv/v1/moments/{id}](#moment_update_endpoint) | Update a moment |
-| [[GET] https://api.theMoment.tv/v1/moments/{id}](#moment_get_endpoint) | Get a moment object |
-| [[GET] https://api.theMoment.tv/v1/moments/{partner}/asset/{id}](#moment_partner_asset_endpoint) | Get moments associated with a video |
+|         | Endpoint | Description |
+| ------- |-------- | ----------- |
+| ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png) | [https://api.theMoment.tv/v1/moments](#moment_create_endpoint) | Create a new moment |
+| ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png) | [https://api.theMoment.tv/v1/moments/{id}](#moment_update_endpoint) | Update a moment |
+| ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png) | [https://api.theMoment.tv/v1/moments/{id}](#moment_get_endpoint) | Get a moment object |
+| ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png) |  [https://api.theMoment.tv/v1/moments/{partner}/asset/{id}](#moment_partner_asset_endpoint) | Get moments associated with a video |
 
 ------------------------------------------------
 <a name="moment_create_endpoint"></a>
