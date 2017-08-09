@@ -20,8 +20,6 @@ Methods and nametags:
  - [mData](http://themoment.tv/nametag.php#mData) - manage server data
 - Used by theMoment.tv site only:
  - [mEdit](http://themoment.tv/nametag.php#mEdit) - create and edit moment
- - [mPlay](http://themoment.tv/nametag.php#mPlay) - page to play individual moment
- - [mList](http://themoment.tv/nametag.php#mList) - display list of moments associated with a video
 
 ------------------------------------------------
 <a name="playlist_object"></a>
