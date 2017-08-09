@@ -55,14 +55,14 @@ Assets refer to the underlying VOD asset of videos and live streams.
 ------------------------------------------------
 <a name="app_object"></a>
 <a name="env_object"></a>
-## Applicationand Environment
+## Application and Environment
 
 - [app](http://themoment.tv/nametag.php#app) - manage app environment
 - [site](http://themoment.tv/nametag.php#site) - manage single-page web site
 - [dom](http://themoment.tv/nametag.php#dom) - manage html dom
 - [display](http://themoment.tv/nametag.php#display) - methods to manage grouped html objects
 - [browser](http://themoment.tv/nametag.php#browser) - manage browser-specific calls
-- [caches](http://themoment.tv/nametag.php#caches) - manage API and client caches
+- [cache](http://themoment.tv/nametag.php#cache) - manage API and client caches
 
 ------------------------------------------------
 <a name="player_object"></a>
@@ -78,6 +78,14 @@ Host
 - [webex](http://themoment.tv/nametag.php#webex)     - methods specific to webex
 - [vidyard](http://themoment.tv/nametag.php#vidyard) - methods specific to vidyard
 - [ustream](http://themoment.tv/nametag.php#ustream) - methods specific to ustream
+
+------------------------------------------------
+<a name="backend_object"></a>
+## Server
+
+- [inst](http://themoment.tv/nametag.php#inst) - aws instances
+- [config](http://themoment.tv/nametag.php#conf) - configuration scripts
+- [table](http://themoment.tv/nametag.php#table) - table organization
 
 ------------------------------------------------
 <a name="other_object"></a>
