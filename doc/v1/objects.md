@@ -78,12 +78,12 @@ Assets refer to the underlying VOD asset of videos and live streams.
 ## Player & Host
 
 Player
- - [player](http://themoment.tv/nametag.php#player) - abstracted video player connected to calls for partner-specific players
+- [player](http://themoment.tv/nametag.php#player) - abstracted video player connected to calls for partner-specific players
 Host
- - [twitch](http://themoment.tv/nametag.php#twitch) - methods specific to twitch
- - [youtube](http://themoment.tv/nametag.php#youtube) - methods specific to youtube
- - [webex](http://themoment.tv/nametag.php#webex) - methods specific to webex
- - [vidyard](http://themoment.tv/nametag.php#vidyard) - methods specific to webex
+- [twitch](http://themoment.tv/nametag.php#twitch) - methods specific to twitch
+- [youtube](http://themoment.tv/nametag.php#youtube) - methods specific to youtube
+- [webex](http://themoment.tv/nametag.php#webex) - methods specific to webex
+- [vidyard](http://themoment.tv/nametag.php#vidyard) - methods specific to webex
 
 ------------------------------------------------
 <a name="other_object"></a>
