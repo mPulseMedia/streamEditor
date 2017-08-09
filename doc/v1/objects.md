@@ -43,6 +43,7 @@ Methods and nametags:
 - [ovrInv](http://themoment.tv/nametag.php#ovrInv) - overlay the single most relevant playlist,oran invitation to create a new one.
 - [row](http://themoment.tv/nametag.php#row) - horizontal row of scrollable items with title
 - [carousel](http://themoment.tv/nametag.php#carousel) - scrollable element within each row
+- [instruct](http://themoment.tv/nametag.php#instruct) - display inserted instructions
 
 ------------------------------------------------
 <a name="user_object"></a>
@@ -67,8 +68,8 @@ Methods and nametags:
  - [Asset](http://themoment.tv/nametag.php#asset) - video-related Methods
 
 ------------------------------------------------
-<a name="site_object"></a>
-## Site
+<a name="app_object"></a>
+## App
 
 Methods and nametags:
 
@@ -81,19 +82,25 @@ Methods and nametags:
  - [caches](http://themoment.tv/nametag.php#caches) - manage API and client caches
 
 - web pages and components
- - [feed](http://themoment.tv/nametag.php#feed) - display feed page
- - [row](http://themoment.tv/nametag.php#row) - display individual row on feed page and elsewhere
- - [carousel](http://themoment.tv/nametag.php#carousel) - manage carousel within rows and elsewhere
- - [drawer](http://themoment.tv/nametag.php#drawer) - display drawer overlay atop video
- - [instruct](http://themoment.tv/nametag.php#instruct) - display inserted instructions
 
-- partner video services
+
+------------------------------------------------
+<a name="player_object"></a>
+<a name="host_object"></a>
+## Player & Host
+
+Methods and nametags:
+- Player
+ - [player](http://themoment.tv/nametag.php#player) - abstracted video player connected to calls for partner-specific players
+- Host
  - [twitch](http://themoment.tv/nametag.php#twitch) - methods specific to twitch
  - [youtube](http://themoment.tv/nametag.php#youtube) - methods specific to youtube
- - [partner](http://themoment.tv/nametag.php#partner) - abstracted partner connected to calls for each real partner
- - [player](http://themoment.tv/nametag.php#player) - abstracted video player connected to calls for partner-specific players
+ - [webex](http://themoment.tv/nametag.php#webex) - methods specific to webex
+ - [vidyard](http://themoment.tv/nametag.php#vidyard) - methods specific to webex
 
-- support objects
+------------------------------------------------
+<a name="other_object"></a>
+## other objects
  - [pattern](http://themoment.tv/nametag.php#pattern) - repeated code patterns
  - [search](http://themoment.tv/nametag.php#media) - manage search of moments and playlists
  - [game](http://themoment.tv/nametag.php#game) - manage game data
