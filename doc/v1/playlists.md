@@ -5,14 +5,14 @@
 
 Playlists, or 'remixes' as presented to users, are a series of moments/highlights across one or more live streams/videos.
 
-| Endpoint | Description |
-| -------- | ----------- |
-| [[POST] https://api.theMoment.tv/v1/playlists](#playlist_create_endpoint) | Create a new playlist |
-| [[POST] https://api.theMoment.tv/v1/playlists/{id}](#playlist_update_endpoint) | Update a playlist |
-| [[GET] https://api.theMoment.tv/v1/playlists/{id}](#playlist_get_endpoint) | Get a playlist object |
-| [[GET] https://api.theMoment.tv/v1/playlists/{partner}/asset/{id}](#playlist_partner_asset_endpoint) | Get playlists associated with a video |
-| [[GET] https://api.theMoment.tv/v1/playlists/{partner}/channel/{id}](#playlist_partner_channel_endpoint) | Get playlists associated with a channel |
-| [[POST] https://api.theMoment.tv/v1/playlists/{id}/moment_position_set](#playlist_moment_position_set_endpoint) | Sets the position of a moment within a playlist |
+|       | Endpoint | Description |
+| ----- | -------- | ----------- |
+| ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png) |  [https://api.theMoment.tv/v1/playlists](#playlist_create_endpoint) | Create a new playlist |
+| ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png) |  [https://api.theMoment.tv/v1/playlists/{id}](#playlist_update_endpoint) | Update a playlist |
+| ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png) |  [https://api.theMoment.tv/v1/playlists/{id}](#playlist_get_endpoint) | Get a playlist object |
+| ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png) |  [https://api.theMoment.tv/v1/playlists/{partner}/asset/{id}](#playlist_partner_asset_endpoint) | Get playlists associated with a video |
+| ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png) |  [https://api.theMoment.tv/v1/playlists/{partner}/channel/{id}](#playlist_partner_channel_endpoint) | Get playlists associated with a channel |
+| ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png) |  [https://api.theMoment.tv/v1/playlists/{id}/moment_position_set](#playlist_moment_position_set_endpoint) | Sets the position of a moment within a playlist |
 
 ------------------------------------------------
 <a name="playlist_create_endpoint"></a>
