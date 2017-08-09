@@ -28,7 +28,7 @@ The following is an index of nametags through the API and site projects: [http:/
 <a name="ovr_object"></a>
 ## Overlay
 
-- Allof the following are based on [ovrGen](http://themoment.tv/nametag.php#ovrGen)
+The following are based on [ovrGen](http://themoment.tv/nametag.php#ovrGen)
 - [ovrMix](http://themoment.tv/nametag.php#ovrMix) - overlay showing contents of playlist
 - [ovrDir](http://themoment.tv/nametag.php#ovrDir) - overlay showing rows of playlists
 - [ovrInv](http://themoment.tv/nametag.php#ovrInv) - overlay the single most relevant playlist,oran invitation to create a new one.
