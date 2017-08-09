@@ -7,16 +7,16 @@ Moments are individual highlights within a live stream/video.
 
 | Endpoint | Description |
 | -------- | ----------- |
-| [POST /v1/moments](#moment_create_endpoint) | Create a new moment |
-| [POST /v1/moments/:id](#moment_update_endpoint) | Update a moment |
-| [GET /v1/moments/:id](#moment_get_endpoint) | Get a moment object |
-| [GET /v1/moments/:partner/asset/:id](#moment_partner_asset_endpoint) | Get moments associated with a video |
+| [[POST] https://api.theMoment.tv/v1/moments](#moment_create_endpoint) | Create a new moment |
+| [[POST] https://api.theMoment.tv/v1/moments/{id}](#moment_update_endpoint) | Update a moment |
+| [[GET] https://api.theMoment.tv/v1/moments/{id}](#moment_get_endpoint) | Get a moment object |
+| [[GET] https://api.theMoment.tv/v1/moments/{partner}/asset/{id}](#moment_partner_asset_endpoint) | Get moments associated with a video |
 
 ------------------------------------------------
 <a name="moment_create_endpoint"></a>
 [<](#top)
 
-## POST /v1/moments
+## [POST] https://api.theMoment.tv/v1/moments
 
 Create a new moment.
 
@@ -126,7 +126,7 @@ auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/moments
 <a name="moment_update_endpoint"></a>
 [<](#top)
 
-## POST /v1/moments/:id
+## [POST] https://api.theMoment.tv/v1/moments/{id}
 
 Update a moment.
 
@@ -221,7 +221,7 @@ auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/moments/21061
 <a name="moment_get_endpoint"></a>
 [<](#top)
 
-## GET /v1/moments/:id
+## [GET] https://api.theMoment.tv/v1/moments/{id}
 
 Get object data about an individual moment as identified by its id.
 
@@ -289,7 +289,7 @@ curl -X GET https://api.themoment.tv/v1/moments/2599
 <a name="moment_partner_asset_endpoint"></a>
 [<](#top)
 
-## GET /v1/moments/:partner/asset/:id
+## [GET] https://api.theMoment.tv/v1/moments/{partner}/asset/{id}
 
 Get moments associated with a video. Partner can be twitch, youtube, facebook, vimeo etc and id is the video ID.
 
