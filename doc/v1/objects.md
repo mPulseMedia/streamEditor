@@ -23,6 +23,7 @@ The following is an index of nametags through the API and site projects: [http:/
 
 - [pMerch](http://themoment.tv/nametag.php#pMerch) - display playlist merchandise item (also uses [cMerch](http://themoment.tv/nametag.php#cMerch))
 - [pData](http://themoment.tv/nametag.php#pData) - manage server data
+- [share](http://themoment.tv/nametag.php#share) - sharing methods
 
 ------------------------------------------------
 <a name="ovr_object"></a>
@@ -58,8 +59,10 @@ Assets refer to the underlying VOD asset of videos and live streams.
 ## Application and Environment
 
 - [app](http://themoment.tv/nametag.php#app) - manage app environment
-- [site](http://themoment.tv/nametag.php#site) - manage single-page web site
+- [page](http://themoment.tv/nametag.php#page) - the loaded web page
 - [dom](http://themoment.tv/nametag.php#dom) - manage html dom
+
+- [site](http://themoment.tv/nametag.php#site) - manage single-page web site
 - [display](http://themoment.tv/nametag.php#display) - methods to manage grouped html objects
 - [browser](http://themoment.tv/nametag.php#browser) - manage browser-specific calls
 - [cache](http://themoment.tv/nametag.php#cache) - manage API and client caches
@@ -92,3 +95,4 @@ Host
 ## other objects
 
 - [event](http://themoment.tv/nametag.php#event) - store user events and connect to analytics
+- [utl](http://themoment.tv/nametag.php#utl) - utility methods
