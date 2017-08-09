@@ -61,7 +61,7 @@ Assets refer to the underlying VOD asset of videos and live streams.
 - [app](http://themoment.tv/nametag.php#app) - manage app environment
 - [page](http://themoment.tv/nametag.php#page) - the loaded web page
 - [dom](http://themoment.tv/nametag.php#dom) - manage html dom
-
+- [background](http://themoment.tv/nametag.php#background) - extension use of the background page
 - [site](http://themoment.tv/nametag.php#site) - manage single-page web site
 - [display](http://themoment.tv/nametag.php#display) - methods to manage grouped html objects
 - [browser](http://themoment.tv/nametag.php#browser) - manage browser-specific calls
