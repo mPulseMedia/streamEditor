@@ -73,11 +73,11 @@ Player
 - [player](http://themoment.tv/nametag.php#player) - abstracted video player connected to calls for partner-specific players
 
 Host
-- [twitch]  (http://themoment.tv/nametag.php#twitch)  - methods specific to twitch
-- [youtube] (http://themoment.tv/nametag.php#youtube) - methods specific to youtube
-- [webex]   (http://themoment.tv/nametag.php#webex)   - methods specific to webex
-- [vidyard] (http://themoment.tv/nametag.php#vidyard) - methods specific to vidyard
-- [ustream] (http://themoment.tv/nametag.php#ustream) - methods specific to ustream
+- [twitch](http://themoment.tv/nametag.php#twitch)   - methods specific to twitch
+- [youtube](http://themoment.tv/nametag.php#youtube) - methods specific to youtube
+- [webex](http://themoment.tv/nametag.php#webex)     - methods specific to webex
+- [vidyard](http://themoment.tv/nametag.php#vidyard) - methods specific to vidyard
+- [ustream](http://themoment.tv/nametag.php#ustream) - methods specific to ustream
 
 ------------------------------------------------
 <a name="other_object"></a>
