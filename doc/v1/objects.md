@@ -79,6 +79,7 @@ Assets refer to the underlying VOD asset of videos and live streams.
 
 Player
 - [player](http://themoment.tv/nametag.php#player) - abstracted video player connected to calls for partner-specific players
+
 Host
 - [twitch](http://themoment.tv/nametag.php#twitch) - methods specific to twitch
 - [youtube](http://themoment.tv/nametag.php#youtube) - methods specific to youtube
