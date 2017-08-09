@@ -30,12 +30,19 @@ Methods and nametags:
 - Used with Library
  - [pMerch](http://themoment.tv/nametag.php#pMerch) - display playlist merchandise item (also uses [cMerch](http://themoment.tv/nametag.php#cMerch))
  - [pData](http://themoment.tv/nametag.php#pData) - manage server data
- - [pNext](http://themoment.tv/nametag.php#pNext) - display playlist atop a VOD
- - [pUnified](http://themoment.tv/nametag.php#pUnified) - display drawer to create or play playlist atop VOD or live stream
-- Used by theMoment.tv site only:
- - [pEdit](http://themoment.tv/nametag.php#pEdit) - both page and pMerch-component to create and edit playlist
- - [pPlay](http://themoment.tv/nametag.php#mPlay) - page to play individual playlist
- - [pPromo](http://themoment.tv/nametag.php#pPromo) - display recent popular playlists on top of feed page
+
+------------------------------------------------
+<a name="ovr_object"></a>
+## Overlay
+
+Methods and nametags:
+
+- Allof the following are based on [ovrGen](http://themoment.tv/nametag.php#ovrGen)
+- [ovrMix](http://themoment.tv/nametag.php#ovrMix) - overlay showing contents of playlist
+- [ovrDir](http://themoment.tv/nametag.php#ovrDir) - overlay showing rows of playlists
+- [ovrInv](http://themoment.tv/nametag.php#ovrInv) - overlay the single most relevant playlist,oran invitation to create a new one.
+- [row](http://themoment.tv/nametag.php#row) - horizontal row of scrollable items with title
+- [carousel](http://themoment.tv/nametag.php#carousel) - scrollable element within each row
 
 ------------------------------------------------
 <a name="user_object"></a>
