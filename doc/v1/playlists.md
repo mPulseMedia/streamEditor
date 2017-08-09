@@ -7,18 +7,18 @@ Playlists, or 'remixes' as presented to users, are a series of moments/highlight
 
 | Endpoint | Description |
 | -------- | ----------- |
-| [POST /v1/playlists](#playlist_create_endpoint) | Create a new playlist |
-| [POST /v1/playlists/:id](#playlist_update_endpoint) | Update a playlist |
-| [GET /v1/playlists/:id](#playlist_get_endpoint) | Get a playlist object |
-| [GET /v1/playlists/:partner/asset/:id](#playlist_partner_asset_endpoint) | Get playlists associated with a video |
-| [GET /v1/playlists/:partner/channel/:id](#playlist_partner_channel_endpoint) | Get playlists associated with a channel |
-| [POST /v1/playlists/:id/moment_position_set](#playlist_moment_position_set_endpoint) | Sets the position of a moment within a playlist |
+| [[POST] https://api.theMoment.tv/v1/playlists](#playlist_create_endpoint) | Create a new playlist |
+| [[POST] https://api.theMoment.tv/v1/playlists/{id}](#playlist_update_endpoint) | Update a playlist |
+| [[GET] https://api.theMoment.tv/v1/playlists/{id}](#playlist_get_endpoint) | Get a playlist object |
+| [[GET] https://api.theMoment.tv/v1/playlists/{partner}/asset/{id}](#playlist_partner_asset_endpoint) | Get playlists associated with a video |
+| [[GET] https://api.theMoment.tv/v1/playlists/{partner}/channel/{id}](#playlist_partner_channel_endpoint) | Get playlists associated with a channel |
+| [[POST] https://api.theMoment.tv/v1/playlists/{id}/moment_position_set](#playlist_moment_position_set_endpoint) | Sets the position of a moment within a playlist |
 
 ------------------------------------------------
 <a name="playlist_create_endpoint"></a>
 [<](#top)
 
-## POST /v1/playlists
+## [POST] https://api.theMoment.tv/v1/playlists
 
 Create a new playlist.
 
@@ -89,7 +89,7 @@ auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/playlists
 <a name="playlist_update_endpoint"></a>
 [<](#top)
 
-## POST /v1/playlists/:id
+## [POST] https://api.theMoment.tv/v1/playlists/{id}
 
 Update a playlist.
 
@@ -152,7 +152,7 @@ auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/playlists/272
 <a name="playlist_get_endpoint"></a>
 [<](#top)
 
-## GET  /v1/playlists/:id
+## [GET]  https://api.theMoment.tv/v1/playlists/{id}
 
 Get a playlist object.
 
@@ -312,7 +312,7 @@ curl -X GET https://api.themoment.tv/v1/playlists/2728?limit=10
 <a name="playlist_partner_asset_endpoint"></a>
 [<](#top)
 
-## POST /v1/playlists/:partner/asset/:id
+## [POST] https://api.theMoment.tv/v1/playlists/{partner}/asset/{id}
 
 Get playlists associated with a video. Partner can be twitch, youtube, facebook, vimeo etc and id is the video ID.
 
@@ -445,7 +445,7 @@ curl -X GET https://api.themoment.tv/v1/playlists/twitch/asset/v66318170?limit=1
 <a name="playlist_partner_channel_endpoint"></a>
 [<](#top)
 
-## POST /v1/playlists/:partner/channel/:id
+## [POST] https://api.theMoment.tv/v1/playlists/{partner}/channel/{id}
 
 Get playlists associated with a channel. Partner can be twitch, youtube, facebook, vimeo etc and id is the channel name.
 
@@ -573,7 +573,7 @@ curl -X GET https://api.themoment.tv/v1/playlists/twitch/channel/riotgames?limit
 <a name="playlist_moment_position_set_endpoint"></a>
 [<](#top)
 
-## POST /v1/playlists/:id/moment_position_set
+## [POST] https://api.theMoment.tv/v1/playlists/{id}/moment_position_set
 
 Sets the position of a moment within a playlist.
 
