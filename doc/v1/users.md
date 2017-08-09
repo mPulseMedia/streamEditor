@@ -5,13 +5,13 @@
 
 APIs for end-users and and app clients.
 
-| Endpoint | Description |
-| -------- | ----------- |
-| [[POST] https://api.theMoment.tv/v1/users](#user_create_endpoint) | Create a new user |
-| [[GET] https://api.theMoment.tv/v1/users/{id}/](#user_get_endpoint) | Get a user object |
-| [[GET] https://api.theMoment.tv/v1/users/{id}/playlists](#user_playlist_get_endpoint) | Get a user's playlists |
-| [[GET] https://api.theMoment.tv/v1/users/{id}/history](#user_history_get_endpoint) | Get a user's history |
-| [[POST] https://api.theMoment.tv/v1/users/{id}/user_history_add](#user_history_add_endpoint) | Add to user's history |
+|       | Endpoint | Description |
+| ----- |-------- | ----------- |
+| ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png) | [https://api.theMoment.tv/v1/users](#user_create_endpoint) | Create a new user |
+| ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png) | [https://api.theMoment.tv/v1/users/{id}/](#user_get_endpoint) | Get a user object |
+| ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png) | [https://api.theMoment.tv/v1/users/{id}/playlists](#user_playlist_get_endpoint) | Get a user's playlists |
+| ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png) | [https://api.theMoment.tv/v1/users/{id}/history](#user_history_get_endpoint) | Get a user's history |
+| ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png) | [https://api.theMoment.tv/v1/users/{id}/user_history_add](#user_history_add_endpoint) | Add to user's history |
 
 ------------------------------------------------
 <a name="user_create_endpoint"></a>
