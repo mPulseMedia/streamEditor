@@ -7,17 +7,17 @@ APIs for end-users and and app clients.
 
 | Endpoint | Description |
 | -------- | ----------- |
-| [POST /v1/users](#user_create_endpoint) | Create a new user |
-| [GET /v1/users/:id/](#user_get_endpoint) | Get a user object |
-| [GET /v1/users/:id/playlists](#user_playlist_get_endpoint) | Get a user's playlists |
-| [GET /v1/users/:id/history](#user_history_get_endpoint) | Get a user's history |
-| [POST /v1/users/:id/user_history_add](#user_history_add_endpoint) | Add to user's history |
+| [[POST] https://api.theMoment.tv/v1/users](#user_create_endpoint) | Create a new user |
+| [[GET] https://api.theMoment.tv/v1/users/{id}/](#user_get_endpoint) | Get a user object |
+| [[GET] https://api.theMoment.tv/v1/users/{id}/playlists](#user_playlist_get_endpoint) | Get a user's playlists |
+| [[GET] https://api.theMoment.tv/v1/users/{id}/history](#user_history_get_endpoint) | Get a user's history |
+| [[POST] https://api.theMoment.tv/v1/users/{id}/user_history_add](#user_history_add_endpoint) | Add to user's history |
 
 ------------------------------------------------
 <a name="user_create_endpoint"></a>
 [<](#top)
 
-## POST /v1/users
+## [POST] https://api.theMoment.tv/v1/users
 
 Create new user.
 
@@ -59,7 +59,7 @@ display_name=Paul Smith" https://api.themoment.tv/v1/users
 <a name="user_get_endpoint"></a>
 [<](#top)
 
-## GET /v1/users/:id/
+## [GET] https://api.theMoment.tv/v1/users/{id}/
 
 Get user object.
 
@@ -89,7 +89,7 @@ curl -X GET https://api.themoment.tv/v1/users/508
 ------------------------------------------------
 <a name="user_playlist_get_endpoint"></a>[<](#top)
 
-## GET /v1/users/:id/playlists
+## [GET] https://api.theMoment.tv/v1/users/{id}/playlists
 
 Get user's playlists.
 
@@ -160,7 +160,7 @@ curl -X GET https://api.themoment.tv/v1/users/pyLvpx3XTGXfJG0OtlBnOZpWgLgFi9RIHC
 <a name="user_history_get_endpoint"></a>
 [<](#top)
 
-## GET /v1/users/:id/history
+## [GET] https://api.theMoment.tv/v1/users/{id}/history
 
 Get user's history.
 
@@ -232,7 +232,7 @@ curl -X GET https://api.themoment.tv/v1/users/pyLvpx3XTGXfJG0OtlBnOZpWgLgFi9RIHC
 <a name="user_history_add_endpoint"></a>
 [<](#top)
 
-## POST /v1/users/:id/user_history_add
+## [POST] https://api.theMoment.tv/v1/users/{id}/user_history_add
 
 Add to user's history.
 
