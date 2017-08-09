@@ -13,8 +13,6 @@ The following is an index of nametags through the API and site projects: [http:/
 <a name="moment_object"></a>
 ## Moments
 
-Methods and nametags:
-
 - Used with Library
  - [mMerch](http://themoment.tv/nametag.php#mMerch) - display moment merchandise item (also uses [cMerch](http://themoment.tv/nametag.php#cMerch))
  - [mData](http://themoment.tv/nametag.php#mData) - manage server data
@@ -25,8 +23,6 @@ Methods and nametags:
 <a name="playlist_object"></a>
 ## Playlist
 
-Methods and nametags:
-
 - Used with Library
  - [pMerch](http://themoment.tv/nametag.php#pMerch) - display playlist merchandise item (also uses [cMerch](http://themoment.tv/nametag.php#cMerch))
  - [pData](http://themoment.tv/nametag.php#pData) - manage server data
@@ -34,8 +30,6 @@ Methods and nametags:
 ------------------------------------------------
 <a name="ovr_object"></a>
 ## Overlay
-
-Methods and nametags:
 
 - Allof the following are based on [ovrGen](http://themoment.tv/nametag.php#ovrGen)
 - [ovrMix](http://themoment.tv/nametag.php#ovrMix) - overlay showing contents of playlist
@@ -49,8 +43,6 @@ Methods and nametags:
 <a name="user_object"></a>
 ## Users
 
-Methods and nametags:
-
 - Used with API and Library
  - [User](http://themoment.tv/nametag.php#User) - user-related methods
 - Used by theMoment.tv site only:
@@ -62,16 +54,12 @@ Methods and nametags:
 
 Assets refer to the underlying VOD asset of videos and live streams.
 
-Methods and nametags:
-
 - Used with API and Library
  - [Asset](http://themoment.tv/nametag.php#asset) - video-related Methods
 
 ------------------------------------------------
 <a name="app_object"></a>
 ## App
-
-Methods and nametags:
 
 - site environment
  - [app](http://themoment.tv/nametag.php#app) - manage app environment
@@ -89,10 +77,9 @@ Methods and nametags:
 <a name="host_object"></a>
 ## Player & Host
 
-Methods and nametags:
-- Player
+Player
  - [player](http://themoment.tv/nametag.php#player) - abstracted video player connected to calls for partner-specific players
-- Host
+Host
  - [twitch](http://themoment.tv/nametag.php#twitch) - methods specific to twitch
  - [youtube](http://themoment.tv/nametag.php#youtube) - methods specific to youtube
  - [webex](http://themoment.tv/nametag.php#webex) - methods specific to webex
@@ -101,7 +88,5 @@ Methods and nametags:
 ------------------------------------------------
 <a name="other_object"></a>
 ## other objects
- - [pattern](http://themoment.tv/nametag.php#pattern) - repeated code patterns
- - [search](http://themoment.tv/nametag.php#media) - manage search of moments and playlists
- - [game](http://themoment.tv/nametag.php#game) - manage game data
- - [event](http://themoment.tv/nametag.php#event) - store user events and connect to analytics
+
+- [event](http://themoment.tv/nametag.php#event) - store user events and connect to analytics
