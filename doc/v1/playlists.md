@@ -155,7 +155,7 @@ auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/playlists/272
 [<](#top)
 
 ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png)
-## [GET]  https://api.theMoment.tv/v1/playlists/{id}
+## https://api.theMoment.tv/v1/playlists/{id}
 
 Get a playlist object.
 
@@ -315,7 +315,8 @@ curl -X GET https://api.themoment.tv/v1/playlists/2728?limit=10
 <a name="playlist_partner_asset_endpoint"></a>
 [<](#top)
 
-## [POST] https://api.theMoment.tv/v1/playlists/{partner}/asset/{id}
+![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png)
+## https://api.theMoment.tv/v1/playlists/{partner}/asset/{id}
 
 Get playlists associated with a video. Partner can be twitch, youtube, facebook, vimeo etc and id is the video ID.
 
@@ -449,7 +450,7 @@ curl -X GET https://api.themoment.tv/v1/playlists/twitch/asset/v66318170?limit=1
 [<](#top)
 
 ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png)
-## [GET] https://api.theMoment.tv/v1/playlists/{partner}/channel/{id}
+## https://api.theMoment.tv/v1/playlists/{partner}/channel/{id}
 
 Get playlists associated with a channel. Partner can be twitch, youtube, facebook, vimeo etc and id is the channel name.
 
