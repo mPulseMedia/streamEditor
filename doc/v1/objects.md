@@ -13,6 +13,7 @@ The following is an index of nametags through the API and site projects: [http:/
 <a name="moment_object"></a>
 ## Moments
 
+- [moment](http://themoment.tv/nametag.php#moment) - common moment calls
 - [mMerch](http://themoment.tv/nametag.php#mMerch) - display moment merchandise item (also uses [cMerch](http://themoment.tv/nametag.php#cMerch))
 - [mData](http://themoment.tv/nametag.php#mData) - manage server data
 - [mEdit](http://themoment.tv/nametag.php#mEdit) - create and edit moment
