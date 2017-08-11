@@ -62,7 +62,7 @@ The gitHub repositories include:
  - [moment_api](https://github.com/mPulseMedia/moment_api) - backend api
  - [moment_config](https://github.com/mPulseMedia/moment_config) - deployment scripts
 - Front end
- - [moment_app](https://github.com/mPulseMedia/moment_app) - website and extension
+ - [moment_app](https://github.com/mPulseMedia/moment_app) - library, extension and website
  - [moment_watch](https://github.com/mPulseMedia/moment_watch) - Apple iOS watch app
 
 The API is written in php using the CMV paradigm and the CodeIgniter framework.
