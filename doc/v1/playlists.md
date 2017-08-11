@@ -18,7 +18,8 @@ Playlists, or 'remixes' as presented to users, are a series of moments/highlight
 <a name="playlist_create_endpoint"></a>
 [<](#top)
 
-## [POST] https://api.theMoment.tv/v1/playlists
+![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png)
+## https://api.theMoment.tv/v1/playlists
 
 Create a new playlist.
 
@@ -89,7 +90,8 @@ auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/playlists
 <a name="playlist_update_endpoint"></a>
 [<](#top)
 
-## [POST] https://api.theMoment.tv/v1/playlists/{id}
+![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png)
+## https://api.theMoment.tv/v1/playlists/{id}
 
 Update a playlist.
 
@@ -152,6 +154,7 @@ auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/playlists/272
 <a name="playlist_get_endpoint"></a>
 [<](#top)
 
+![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png)
 ## [GET]  https://api.theMoment.tv/v1/playlists/{id}
 
 Get a playlist object.
@@ -445,7 +448,8 @@ curl -X GET https://api.themoment.tv/v1/playlists/twitch/asset/v66318170?limit=1
 <a name="playlist_partner_channel_endpoint"></a>
 [<](#top)
 
-## [POST] https://api.theMoment.tv/v1/playlists/{partner}/channel/{id}
+![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png)
+## [GET] https://api.theMoment.tv/v1/playlists/{partner}/channel/{id}
 
 Get playlists associated with a channel. Partner can be twitch, youtube, facebook, vimeo etc and id is the channel name.
 
@@ -573,7 +577,8 @@ curl -X GET https://api.themoment.tv/v1/playlists/twitch/channel/riotgames?limit
 <a name="playlist_moment_position_set_endpoint"></a>
 [<](#top)
 
-## [POST] https://api.theMoment.tv/v1/playlists/{id}/moment_position_set
+![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png)
+## https://api.theMoment.tv/v1/playlists/{id}/moment_position_set
 
 Sets the position of a moment within a playlist.
 
