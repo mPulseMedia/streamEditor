@@ -31,10 +31,10 @@ The following is an index of nametags through the API and site projects: [http:/
 <a name="ovr_object"></a>
 ## Overlay
 
-The following are based on [ovrGen](http://themoment.tv/nametag.php#ovrGen)
-- [ovrMix](http://themoment.tv/nametag.php#ovrMix) - overlay showing contents of playlist
+- [ovrGen](http://themoment.tv/nametag.php#ovrGen) - common overlay calls
+- [ovrMix](http://themoment.tv/nametag.php#ovrMix) - overlay when playing a playlist
 - [ovrDir](http://themoment.tv/nametag.php#ovrDir) - overlay showing rows of playlists
-- [ovrInv](http://themoment.tv/nametag.php#ovrInv) - overlay the single most relevant playlist,oran invitation to create a new one.
+- [ovrInv](http://themoment.tv/nametag.php#ovrInv) - overlay with the single most relevant playlist, or an invitation to create a new playlist.
 - [row](http://themoment.tv/nametag.php#row) - horizontal row of scrollable items with title
 - [carousel](http://themoment.tv/nametag.php#carousel) - scrollable element within each row
 - [instruct](http://themoment.tv/nametag.php#instruct) - display inserted instructions
