@@ -22,6 +22,7 @@ The following is an index of nametags through the API and site projects: [http:/
 <a name="playlist_object"></a>
 ## Playlist
 
+- [playlist](http://themoment.tv/nametag.php#playlist) - common playlist calls
 - [pMerch](http://themoment.tv/nametag.php#pMerch) - display playlist merchandise item (also uses [cMerch](http://themoment.tv/nametag.php#cMerch))
 - [pData](http://themoment.tv/nametag.php#pData) - manage server data
 - [share](http://themoment.tv/nametag.php#share) - sharing methods
