@@ -127,7 +127,8 @@ auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/moments
 <a name="moment_update_endpoint"></a>
 [<](#top)
 
-## [POST] https://api.theMoment.tv/v1/moments/{id}
+![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png)
+## https://api.theMoment.tv/v1/moments/{id}
 
 Update a moment.
 
@@ -222,6 +223,7 @@ auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/moments/21061
 <a name="moment_get_endpoint"></a>
 [<](#top)
 
+![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png)
 ## [GET] https://api.theMoment.tv/v1/moments/{id}
 
 Get object data about an individual moment as identified by its id.
@@ -290,7 +292,8 @@ curl -X GET https://api.themoment.tv/v1/moments/2599
 <a name="moment_partner_asset_endpoint"></a>
 [<](#top)
 
-## [GET] https://api.theMoment.tv/v1/moments/{partner}/asset/{id}
+![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png)
+## [https://api.theMoment.tv/v1/moments/{partner}/asset/{id}
 
 Get moments associated with a video. Partner can be twitch, youtube, facebook, vimeo etc and id is the video ID.
 
