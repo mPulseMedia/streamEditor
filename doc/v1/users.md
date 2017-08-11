@@ -17,7 +17,8 @@ APIs for end-users and and app clients.
 <a name="user_create_endpoint"></a>
 [<](#top)
 
-## [POST] https://api.theMoment.tv/v1/users
+![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png)
+## https://api.theMoment.tv/v1/users
 
 Create new user.
 
@@ -59,7 +60,8 @@ display_name=Paul Smith" https://api.themoment.tv/v1/users
 <a name="user_get_endpoint"></a>
 [<](#top)
 
-## [GET] https://api.theMoment.tv/v1/users/{id}/
+![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png)
+## https://api.theMoment.tv/v1/users/{id}/
 
 Get user object.
 
@@ -89,7 +91,8 @@ curl -X GET https://api.themoment.tv/v1/users/508
 ------------------------------------------------
 <a name="user_playlist_get_endpoint"></a>[<](#top)
 
-## [GET] https://api.theMoment.tv/v1/users/{id}/playlists
+![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png)
+## https://api.theMoment.tv/v1/users/{id}/playlists
 
 Get user's playlists.
 
@@ -160,7 +163,8 @@ curl -X GET https://api.themoment.tv/v1/users/pyLvpx3XTGXfJG0OtlBnOZpWgLgFi9RIHC
 <a name="user_history_get_endpoint"></a>
 [<](#top)
 
-## [GET] https://api.theMoment.tv/v1/users/{id}/history
+![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png)
+## https://api.theMoment.tv/v1/users/{id}/history
 
 Get user's history.
 
@@ -232,7 +236,8 @@ curl -X GET https://api.themoment.tv/v1/users/pyLvpx3XTGXfJG0OtlBnOZpWgLgFi9RIHC
 <a name="user_history_add_endpoint"></a>
 [<](#top)
 
-## [POST] https://api.theMoment.tv/v1/users/{id}/user_history_add
+![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png)
+## https://api.theMoment.tv/v1/users/{id}/user_history_add
 
 Add to user's history.
 
