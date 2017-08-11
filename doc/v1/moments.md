@@ -16,7 +16,8 @@ Moments are individual highlights within a live stream/video.
 <a name="moment_create_endpoint"></a>
 [<](#top)
 
-## [POST] https://api.theMoment.tv/v1/moments
+![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png)
+## https://api.theMoment.tv/v1/moments
 
 Create a new moment.
 
