@@ -11,24 +11,24 @@ The following describes how to add theMoment library (powered by StreamEditor.tv
 <a name="library_install"></a>
 ## Install Library
 
-To install the library, simply add the following script to the **footer** of AU pages containing the Ooyala video player v4.
+To install theMoment library, simply add the following script to the **footer** of AU pages containing the Ooyala video player v4.
 
 ```
 <script src="https://themoment.tv/cust/au/themoment.js"></script>
 ```
 
-The library in this **/cust/au/** location is specific to AU, and supports the Ooyala player on both both AU currently live site as well as the Beta site.
+This version of the library, located with **/cust/au/**, is specific to AU, and will support the Ooyala player on both AU's currently live site as well as AU's Beta site.
 
 ------------------------------------------------
 <a name="how_it_works"></a>
 ## How It Works
 
-Once the page and the library are loaded, the library locates this pre-defined player object.
+Once the page and the library are loaded, theMoment locates this pre-defined player object.
 > window[‘e7917642de4a4f1eae0a331375e03784’]
 
-The library then adds a new element **ovrGen_layer** beneith the pre-defined element **oo-player-container**.
+TheMoment adds a new element **ovrGen_layer** beneith the pre-defined element **oo-player-container**. All of the overlay elements appear beneight this new element.
 
-The library determines the unique identifer of the currently loaded video, as extracted from **data-embed-code**, for exmaple:
+TheMoment determines the unique identifer of the currently loaded video, as extracted from **data-embed-code**, for exmaple:
 > data-embed-code="ptOTNuNzE6h-RpzQi1SLyfjFzuPcnqvu"
 
 NOTE: If any of these objects or elements changes, please inform StreamEditor. Also, on AU's currently live site, the pre-defined player object and parent to our newly added element, respectivly, are:
