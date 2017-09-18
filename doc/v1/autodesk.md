@@ -13,7 +13,9 @@ The following describes how to add theMoment library (powered by StreamEditor.tv
 
 To install the library, simply add the following script to the **footer** of AU pages containing the Ooyala video player v4.
 
-> <script src="https://themoment.tv/ext/js/themoment.js"></script>
+```
+<script src="https://themoment.tv/ext/js/themoment.js"></script>
+```
 
 The library in this **/cust/au/** location is specific to AU, and supports the Ooyala player on both both AU's Beta and currently live sites.
 
@@ -27,11 +29,11 @@ Once the page and the library are loaded, the library locates this pre-defined p
 
 The library then adds this new element to the page:
 
-> <div class="ovrGen_layer"></div>
+>  <div class="ovrGen_layer"></div>
 
 The parent to the newly added element is the following pre-defined element:
 
-> <div class=“oo-player-container”></div>
+>  <div class=“oo-player-container”></div>
 
 The library determines the unique identifer of the video being played, as read from **data-embed-code**, for exmaple:
 
