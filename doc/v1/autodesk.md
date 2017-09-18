@@ -33,8 +33,17 @@ The library then adds this new element to the page:
 ```
 <div class="overGen_layer"></div>
 ```
-This new element is added as a child to the following pre-defined element:
+The parent of this new element is the following pre-defined element:
 
 ```
 <div class=“oo-player-container”></div>
 ```
+
+Note: On AU's currently live site, the pre-defined player object and parent of this new element, respectivly, are:
+
+```
+window["video-ooyala-player"]
+<div class="rau-player"></div>
+```
+
+MORE!
