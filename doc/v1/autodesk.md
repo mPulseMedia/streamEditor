@@ -22,7 +22,7 @@ The library in this **/cust/au/** location is specific to AU, and supports the O
 <a name="how_it_works"></a>
 ## How It Works
 
-Once the page and the library are loaded, the The library locates the pre-defined player object.
+Once the page and the library are loaded, the library locates this pre-defined player object.
 
 ```
 window[‘e7917642de4a4f1eae0a331375e03784’]
@@ -31,24 +31,24 @@ window[‘e7917642de4a4f1eae0a331375e03784’]
 The library then adds this new element to the page:
 
 ```
-<div class="overGen_layer"></div>
+<div class="ovrGen_layer"></div>
 ```
-The parent of our newly added element is the following pre-defined element.
+The parent to the newly added element is the following pre-defined element:
 
 ```
 <div class=“oo-player-container”></div>
 ```
 
-Note: On AU's currently live site, the pre-defined player object and parent of our newly added element, respectivly, are:
+The library determines the unique identifer of the video being played, as read from **data-embed-code**, for exmaple:
+
+```
+<div id="ooyala-video" ... data-embed-code="ptOTNuNzE6h-RpzQi1SLyfjFzuPcnqvu"> ... </div>
+```
+
+NOTE: If any of these objects or elements changes, please inform StreamEditor. Also, on AU's currently live site, the pre-defined player object and parent to our newly added element, respectivly, are:
 
 ```
 window["video-ooyala-player"]
 <div class="rau-player"></div>
 ```
-The unique identifer of the video being playes is set by data-embed-code, for exmaple:
 
-```
-<div id="ooyala-video" ... **data-embed-code**="ptOTNuNzE6h-RpzQi1SLyfjFzuPcnqvu"> ... </div>
-```
-
- If any of these objects or elements changes, please inform StreamEditor.
