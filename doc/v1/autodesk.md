@@ -78,8 +78,8 @@ If the library detect these parameters in the URL, it will load and play the cor
 
 * End user may use an 'easter egg' to enable chapter edit mode. Simply tap **Control-Key**. This may be disabled when site is live.
 * The overlay position & visibility are not correct.
-* We have not yet extracted thumbnails for each Chapter, but use the video's single 
-timeline mark
-chapters are really time-spans (have start and end time)
-when I click timeline or transcript, it does not activate the containing chapter
+* We have not yet extracted thumbnails for each Chapter, but use the video's single thumbnail.
+* No markser appear on the player's timeline.
+* Chapter have a start and end time; they are not just the start-time.
+* If end user moves the playhead via the player's timeline or the transcript, the chapter that contains it is not made active.
 
