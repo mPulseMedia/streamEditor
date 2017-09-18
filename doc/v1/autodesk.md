@@ -11,33 +11,30 @@ The following describes how to add theMoment library (powered by StreamEditor.tv
 <a name="library_install"></a>
 ## Install Library
 
-Add the following script to the *footer* of the AU page containing the Ooyala video player.
+Add the following script to the **footer** of the AU page containing the Ooyala video player.
 
 ```
 <script type='text/javascript' src='https://themoment.tv/cust/au/themoment.js'></script>
 ```
-This library in this location is specific to AU, and supports the Ooyala player on both both the Beta and AU's currently live site.
+The library in this /cust/au/ location is specific to AU, and supports the Ooyala player on both both the Beta and AU's currently live site.
 
 ------------------------------------------------
 <a name="how_it_works"></a>
 ## How It Works
 
-The Library does not need to be initialized. Once the page and the library are loaded, the The library identifies the pre-defined player object in order to interact with the player.
+Once the page and the library are loaded, the The library locates the pre-defined player object.
 
 ```
 window[‘e7917642de4a4f1eae0a331375e03784’]
 ```
 
-The this existing page element
-
-```
-<div class=“oo-player-container”></div>
-```
-
-...the Library attaches the following new element:
+The library then adds this new element to the page:
 
 ```
 <div class="overGen_layer"></div>
 ```
+This new element is added as a child to the following pre-defined element:
 
-This contains the overlay that appears atop the Ooyala player.
+```
+<div class=“oo-player-container”></div>
+```
