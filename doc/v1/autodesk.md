@@ -24,29 +24,20 @@ The library in this **/cust/au/** location is specific to AU, and supports the O
 ## How It Works
 
 Once the page and the library are loaded, the library locates this pre-defined player object.
-
 > window[‘e7917642de4a4f1eae0a331375e03784’]
 
 The library then adds this new element to the page:
-
->  <div class="ovrGen_layer"></div>
+> ovrGen_layer
 
 The parent to the newly added element is the following pre-defined element:
-
->  <div class=“oo-player-container”></div>
+> oo-player-container
 
 The library determines the unique identifer of the video being played, as read from **data-embed-code**, for exmaple:
-
-```
-<div id="ooyala-video" ... data-embed-code="ptOTNuNzE6h-RpzQi1SLyfjFzuPcnqvu"> ... </div>
-```
+> data-embed-code="ptOTNuNzE6h-RpzQi1SLyfjFzuPcnqvu"
 
 NOTE: If any of these objects or elements changes, please inform StreamEditor. Also, on AU's currently live site, the pre-defined player object and parent to our newly added element, respectivly, are:
-
-```
-window["video-ooyala-player"]
-<div class="rau-player"></div>
-```
+> window["video-ooyala-player"]
+> class="rau-player"
 
 The library then interacts with the Ooyala player using:
 
