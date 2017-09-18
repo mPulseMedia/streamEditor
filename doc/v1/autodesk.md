@@ -26,13 +26,9 @@ The library in this **/cust/au/** location is specific to AU, and supports the O
 Once the page and the library are loaded, the library locates this pre-defined player object.
 > window[‘e7917642de4a4f1eae0a331375e03784’]
 
-The library then adds this new element to the page:
-> ovrGen_layer
+The library then adds a new element **ovrGen_layer** beneith the pre-defined element **oo-player-container**.
 
-The parent to the newly added element is the following pre-defined element:
-> oo-player-container
-
-The library determines the unique identifer of the loaded video, as extracted from **data-embed-code**, for exmaple:
+The library determines the unique identifer of the currently loaded video, as extracted from **data-embed-code**, for exmaple:
 > data-embed-code="ptOTNuNzE6h-RpzQi1SLyfjFzuPcnqvu"
 
 NOTE: If any of these objects or elements changes, please inform StreamEditor. Also, on AU's currently live site, the pre-defined player object and parent to our newly added element, respectivly, are:
