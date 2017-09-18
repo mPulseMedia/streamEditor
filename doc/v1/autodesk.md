@@ -56,16 +56,13 @@ The library then interacts with the Ooyala player using:
 <a name="tech_notes"></a>
 ## Technical Notes
 
-### URL
-
 When the end-user clicks a chapter, the library adds couple parameters to the URL, for exmaple:
-```
-https://alpha.beta.au.autodesk.com/themes/custom/forgecms_subtheme_auonline/styleguide/?playlist=19725&moment=206440
-```
+
+> https://alpha.beta.au.autodesk.com/themes/custom/forgecms_subtheme_auonline/styleguide/?playlist=19725&moment=206440
 
 If the library detect these parameters in the URL, it will load and play the corresponding set of chapters. With this, end-users are able to link to share a link to a specific chapter.
 
-### Known Technical Issues
+Also:
 * Clicking a chapter to start the player (as opposed to simply move the playhead of an already playing video).
 * Clicking a chapter that moves the playhead backward is currently broken.
 * Switching video within the same page is intentionally not yet integrated, so we can ensure that we are coordinated.
@@ -74,7 +71,7 @@ If the library detect these parameters in the URL, it will load and play the cor
 
 ------------------------------------------------
 <a name="ux_notes"></a>
-## UX and Product Notes
+## UX Notes
 
 * End-users may employ an 'easter egg' to enable chapter edit mode. Simply tap **Control-Key**. This may be disabled when site is live.
 * The overlay position & visibility are not correct.
