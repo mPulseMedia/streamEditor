@@ -58,12 +58,12 @@ The library then interacts with the Ooyala player using:
 
 ### URL
 
-When the user clicks a chapter, the library adds couple parameters to the URL, for exmaple:
+When the end-user clicks a chapter, the library adds couple parameters to the URL, for exmaple:
 ```
 https://alpha.beta.au.autodesk.com/themes/custom/forgecms_subtheme_auonline/styleguide/?playlist=19725&moment=206440
 ```
 
-If the library detect these parameters in the URL, it will load and play the corresponding set of chapters. In this, users are able to link to share a link to a specific chapter.
+If the library detect these parameters in the URL, it will load and play the corresponding set of chapters. With this, end-users are able to link to share a link to a specific chapter.
 
 ### Known Technical Issues
 * Clicking a chapter to start the player (as opposed to simply move the playhead of an already playing video).
@@ -76,10 +76,10 @@ If the library detect these parameters in the URL, it will load and play the cor
 <a name="ux_notes"></a>
 ## UX and Product Notes
 
-* End user may use an 'easter egg' to enable chapter edit mode. Simply tap **Control-Key**. This may be disabled when site is live.
+* End-users may employ an 'easter egg' to enable chapter edit mode. Simply tap **Control-Key**. This may be disabled when site is live.
 * The overlay position & visibility are not correct.
 * We have not yet extracted thumbnails for each Chapter, but use the video's single thumbnail.
 * No markser appear on the player's timeline.
 * Chapter have a start and end time; they are not just the start-time.
-* If end user moves the playhead via the player's timeline or the transcript, the chapter that contains it is not made active.
+* If end-users move the playhead dragging the player's timeline or clicking within the transcript, the chapter that contains it is not made active.
 
