@@ -40,7 +40,7 @@ If any of these objects or elements change, please inform StreamEditor. Also, on
 
 When the end-user clicks a chapter, theMoment adds two parameters to the end of the URL, for exmaple:
 
-> ...?playlist=19725&moment=206440
+> .../?playlist=19725&moment=206440
 
 If the page is rendered with these parameters in the URL, theMoment will load and play the corresponding set of chapters. In this way, end-users are able to share a link that links to a specific chapter within a chapter set.
 
