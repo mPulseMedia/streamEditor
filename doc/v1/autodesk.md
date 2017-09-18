@@ -11,7 +11,7 @@ The following describes how to add theMoment library (powered by StreamEditor.tv
 <a name="library_install"></a>
 ## Install Library
 
-To install the library, simply add the following script to the **footer** of AU pages containing the Ooyala video player.
+To install the library, simply add the following script to the **footer** of AU pages containing the Ooyala video player v4.
 
 ```
 <script type='text/javascript' src='https://themoment.tv/cust/au/themoment.js'></script>
@@ -51,4 +51,15 @@ NOTE: If any of these objects or elements changes, please inform StreamEditor. A
 window["video-ooyala-player"]
 <div class="rau-player"></div>
 ```
+
+The library then interacts with the Ooyala player using:
+
+* play()
+* pause()
+* seek(seconds)
+* setVolume(volume)
+* getPlayheadTime()
+* getDuration()
+* getEmbedCode()
+* ...
 
