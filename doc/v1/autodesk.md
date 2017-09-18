@@ -17,7 +17,7 @@ To install the library, simply add the following script to the **footer** of AU 
 <script src="https://themoment.tv/ext/js/themoment.js"></script>
 ```
 
-The library in this **/cust/au/** location is specific to AU, and supports the Ooyala player on both both AU's Beta and currently live sites.
+The library in this **/cust/au/** location is specific to AU, and supports the Ooyala player on both both AU currently live site as well as the Beta site.
 
 ------------------------------------------------
 <a name="how_it_works"></a>
