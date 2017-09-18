@@ -3,7 +3,7 @@
 
 # AU Installation
 
-The following describes how to add theMoment library to AU's in-development site.
+The following describes how to add theMoment library (powered by StreamEditor.tv) to AU's in-development site.
 
 <img src="https://s3-us-west-2.amazonaws.com/themoment/autodesk.png" width="75%" height="75%" />
 
@@ -11,12 +11,10 @@ The following describes how to add theMoment library to AU's in-development site
 <a name="library_install"></a>
 ## Install Library
 
-Add the following script to the footer of the AU page containing the Ooyala video player.
-
+Add the following script to the *footer* of the AU page containing the Ooyala video player.
 ```
 <script type='text/javascript' src='https://themoment.tv/cust/au/themoment.js'></script>
 ```
-
 This library is specific to AU.
 
 ------------------------------------------------
