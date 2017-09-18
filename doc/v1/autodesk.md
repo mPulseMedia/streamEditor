@@ -26,17 +26,25 @@ This version of the library, located with **/cust/au/**, is specific to AU, and 
 Once the page and the library are loaded, theMoment locates this pre-defined player object.
 > window[‘e7917642de4a4f1eae0a331375e03784’]
 
-TheMoment adds a new element **ovrGen_layer** beneith the pre-defined element **oo-player-container**. All of the overlay elements appear beneight this new element.
+TheMoment adds a new element **ovrGen_layer** as a child of the pre-defined element **oo-player-container**. All of the other elements within the overlay appear as a child of this element. There is only one touch-point per Ooyala player. (On the currently live site, the pre-defined player object is window["video-ooyala-player"] and the  newly added element appears as a child of rau-player.)
 
 TheMoment determines the unique identifer of the currently loaded video, as extracted from **data-embed-code**, for exmaple:
+
 > data-embed-code="ptOTNuNzE6h-RpzQi1SLyfjFzuPcnqvu"
 
-NOTE: If any of these objects or elements changes, please inform StreamEditor. Also, on AU's currently live site, the pre-defined player object and parent to our newly added element, respectivly, are:
-> window["video-ooyala-player"]
+If any of these objects or elements change, please inform StreamEditor. Also, on AU's currently live site, 
 
-> rau-player
+------------------------------------------------
+<a name="tech_notes"></a>
+## Technical Notes
 
-The library then interacts with the Ooyala player using:
+When the end-user clicks a chapter, theMoment adds two parameters to the end of the URL, for exmaple:
+
+> https://alpha.beta.au.autodesk.com/themes/custom/forgecms_subtheme_auonline/styleguide/?playlist=19725&moment=206440
+
+If the page is rendered with these parameters in the URL, theMoment will load and play the corresponding set of chapters. In this way, end-users are able to share a link that links to a specific chapter within a chapter set.
+
+TheMoment interacts with the player using these Ooyala v4 native methods:
 
 * play()
 * pause()
@@ -45,23 +53,12 @@ The library then interacts with the Ooyala player using:
 * getPlayheadTime()
 * getDuration()
 * getEmbedCode()
-* ...
 
+We have intentionally not yet integrated the ability to switch to a different video within the same page, so we can ensure that we are coordinated.
 
-------------------------------------------------
-<a name="tech_notes"></a>
-## Technical Notes
-
-When the end-user clicks a chapter, the library adds couple parameters to the URL, for exmaple:
-
-> https://alpha.beta.au.autodesk.com/themes/custom/forgecms_subtheme_auonline/styleguide/?playlist=19725&moment=206440
-
-If the library detect these parameters in the URL, it will load and play the corresponding set of chapters. With this, end-users are able to link to share a link to a specific chapter.
-
-Also:
+Know issues include:
 * Clicking a chapter to start the player (as opposed to simply move the playhead of an already playing video).
 * Clicking a chapter that moves the playhead backward is currently broken.
-* Switching video within the same page is intentionally not yet integrated, so we can ensure that we are coordinated.
 * Some output is still being printed to console.
 
 
