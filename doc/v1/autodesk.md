@@ -32,12 +32,13 @@ The library then adds this new element to the page:
 The parent to the newly added element is the following pre-defined element:
 > oo-player-container
 
-The library determines the unique identifer of the video being played, as read from **data-embed-code**, for exmaple:
+The library determines the unique identifer of the loaded video, as extracted from **data-embed-code**, for exmaple:
 > data-embed-code="ptOTNuNzE6h-RpzQi1SLyfjFzuPcnqvu"
 
 NOTE: If any of these objects or elements changes, please inform StreamEditor. Also, on AU's currently live site, the pre-defined player object and parent to our newly added element, respectivly, are:
 > window["video-ooyala-player"]
-> class="rau-player"
+
+> rau-player
 
 The library then interacts with the Ooyala player using:
 
@@ -49,4 +50,36 @@ The library then interacts with the Ooyala player using:
 * getDuration()
 * getEmbedCode()
 * ...
+
+
+------------------------------------------------
+<a name="tech_notes"></a>
+## Technical Notes
+
+### URL
+
+When the user clicks a chapter, the library adds couple parameters to the URL, for exmaple:
+```
+https://alpha.beta.au.autodesk.com/themes/custom/forgecms_subtheme_auonline/styleguide/?playlist=19725&moment=206440
+```
+
+If the library detect these parameters in the URL, it will load and play the corresponding set of chapters. In this, users are able to link to share a link to a specific chapter.
+
+### Known Technical Issues
+* Clicking a chapter to start the player (as opposed to simply move the playhead of an already playing video).
+* Clicking a chapter that moves the playhead backward is currently broken.
+* Switching video within the same page is intentionally not yet integrated, so we can ensure that we are coordinated.
+* Some output is still being printed to console.
+
+
+------------------------------------------------
+<a name="ux_notes"></a>
+## UX and Product Notes
+
+* End user may use an 'easter egg' to enable chapter edit mode. Simply tap **Control-Key**. This may be disabled when site is live.
+* The overlay position & visibility are not correct.
+* We have not yet extracted thumbnails for each Chapter, but use the video's single 
+timeline mark
+chapters are really time-spans (have start and end time)
+when I click timeline or transcript, it does not activate the containing chapter
 
