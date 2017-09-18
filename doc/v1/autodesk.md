@@ -5,6 +5,8 @@
 
 The following describes how to add theMoment library to AU's in-development site.
 
+<img src="https://s3-us-west-2.amazonaws.com/themoment/autodesk.png" width="75%" height="75%" />
+
 ------------------------------------------------
 <a name="library_install"></a>
 ## Install Library
