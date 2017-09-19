@@ -3,7 +3,7 @@
 
 # AU Installation
 
-The following describes how to add theMoment library (powered by StreamEditor.tv) to AU's Beta site.
+The following describes how to add theMoment javascript library to AU's Beta site.
 
 <img src="https://s3-us-west-2.amazonaws.com/themoment/autodesk.png" width="75%" height="75%" />
 
