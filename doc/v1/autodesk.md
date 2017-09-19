@@ -32,7 +32,7 @@ TheMoment extracts the unique identifer of the currently loaded video from '**da
 
 > data-embed-code="ptOTNuNzE6h-RpzQi1SLyfjFzuPcnqvu"
 
-If any of these objects or elements change, please inform StreamEditor. Also, on AU's currently live site, 
+NOTE: If any of these object or element names change, please inform StreamEditor. 
 
 ------------------------------------------------
 <a name="tech_notes"></a>
