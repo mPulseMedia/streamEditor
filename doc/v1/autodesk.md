@@ -26,7 +26,7 @@ This version of the library, located within **.../cust/au/**, is specific to AU,
 Once the page and the library are loaded, theMoment locates the following video player object:
 > window[‘e7917642de4a4f1eae0a331375e03784’]
 
-TheMoment adds the new element '**ovrGen_layer**' as a child of the '**oo-player-container**' element. All other elements within theMoment overlay appear as a child of this element. (On AU's currently live site, the pre-defined player object is window["video-ooyala-player"] and the  newly added element appears as a child of 'rau-player.')
+TheMoment adds the new element '**ovrGen_layer**' as a child of the '**oo-player-container**' element. All other elements within theMoment overlay appear as a child of this element. (On AU's currently live site, the video player object is window["video-ooyala-player"] and the  newly added element appears as a child of 'rau-player.')
 
 TheMoment determines the unique identifer of the currently loaded video, as extracted from **data-embed-code**, for exmaple:
 
