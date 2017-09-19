@@ -28,7 +28,7 @@ Once the page and the library are loaded, theMoment locates the following video 
 
 TheMoment adds the new element '**ovrGen_layer**' as a child of the '**oo-player-container**' element. All other elements within theMoment overlay appear as a child of this element. (On AU's currently live site, the video player object is window["video-ooyala-player"] and ovrGen_layer is added as a child of 'rau-player.')
 
-TheMoment determines the unique identifer of the currently loaded video, as extracted from **data-embed-code**, for exmaple:
+TheMoment extracts the unique identifer of the currently loaded video from **data-embed-code**, for exmaple:
 
 > data-embed-code="ptOTNuNzE6h-RpzQi1SLyfjFzuPcnqvu"
 
