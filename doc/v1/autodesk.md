@@ -28,7 +28,7 @@ Once the page and the library are loaded, theMoment locates the following video 
 
 TheMoment adds the new element '**ovrGen_layer**' as a child of the '**oo-player-container**' element. All other elements within theMoment overlay appear as a child of this element. (On AU's currently live site, the video player object is window["video-ooyala-player"] and ovrGen_layer is added as a child of 'rau-player.')
 
-TheMoment extracts the unique identifer of the currently loaded video from '**data-embed-code**' — for example:
+TheMoment extracts the unique identifier of the currently loaded video from '**data-embed-code**' — for example:
 
 > data-embed-code="ptOTNuNzE6h-RpzQi1SLyfjFzuPcnqvu"
 
@@ -38,7 +38,7 @@ NOTE: If any of these object or element names change, please inform StreamEditor
 <a name="tech_notes"></a>
 ## Technical Notes
 
-When the end-user clicks a chapter, theMoment adds two parameters to the end of the URL, for exmaple:
+When the end-user clicks a chapter, theMoment adds two parameters to the end of the URL, for example:
 
 > .../?playlist=19725&moment=206440
 
@@ -66,10 +66,10 @@ Know issues include:
 <a name="ux_notes"></a>
 ## UX Notes
 
-* End-users may employ an 'easter egg' to enable chapter edit mode. Simply tap **Control-Key**. This may be disabled when site is live.
+* End-users may employ an 'easter egg' to enable chapter edit mode. Simply tap **Control-Key**. This may be disabled when the site deployed.
 * The overlay position & visibility are not correct.
 * We have not yet extracted thumbnails for each Chapter, but use the video's single thumbnail.
-* No markser appear on the player's timeline.
-* Chapter have a start and end time; they are not just the start-time.
+* No diamond-chapred marker appears on the player's timeline.
+* Chapters have a start and end time; they are not just the start-time.
 * If end-users move the playhead dragging the player's timeline or clicking within the transcript, the chapter that contains it is not made active.
 
