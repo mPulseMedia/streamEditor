@@ -48,8 +48,8 @@ TheMoment interacts with the player using these Ooyala v4 native methods:
 
 * play()
 * pause()
-* seek(seconds)
-* setVolume(volume)
+* seek()
+* setVolume()
 * getPlayheadTime()
 * getDuration()
 * getEmbedCode()
