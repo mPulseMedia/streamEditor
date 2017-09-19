@@ -23,7 +23,7 @@ This version of the library, located within **.../cust/au/**, is specific to AU,
 <a name="how_it_works"></a>
 ## How It Works
 
-Once the page and the library are loaded, theMoment locates this pre-defined player object.
+Once the page and the library are loaded, theMoment locates the following video player object:
 > window[‘e7917642de4a4f1eae0a331375e03784’]
 
 TheMoment adds a new element **ovrGen_layer** as a child of the pre-defined element **oo-player-container**. All of the other elements within the overlay appear as a child of this element. There is only one touch-point per Ooyala player. (On the currently live site, the pre-defined player object is window["video-ooyala-player"] and the  newly added element appears as a child of rau-player.)
