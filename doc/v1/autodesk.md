@@ -69,7 +69,7 @@ Know issues include:
 * End-users may employ an 'easter egg' to enable chapter edit mode. Simply tap **Control-Key**. This may be disabled when the site deployed.
 * The overlay position & visibility are not correct.
 * We have not yet extracted thumbnails for each Chapter, but use the video's single thumbnail.
-* No diamond-chapred marker appears on the player's timeline.
+* No diamond-shaped marker appears on the player's timeline.
 * Chapters have a start and end time; they are not just the start-time.
 * If end-users move the playhead dragging the player's timeline or clicking within the transcript, the chapter that contains it is not made active.
 
