@@ -23,10 +23,10 @@ This version of the library, located within **.../cust/au/**, is specific to AU,
 <a name="how_it_works"></a>
 ## How It Works
 
-Once the page and the library are loaded, theMoment locates the following video player object:
+Once the page and the library are loaded, theMoment locates the following player object:
 > window[‘e7917642de4a4f1eae0a331375e03784’]
 
-TheMoment adds the new element '**ovrGen_layer**' as a child of the '**oo-player-container**' element. All other elements within theMoment overlay appear as a child of this element. (On AU's currently live site, the video player object is window["video-ooyala-player"] and ovrGen_layer is added as a child of 'rau-player.')
+TheMoment adds the new element <div class='ovrgen_layer">..</div> as a sibling of the <div class='oo-player-container'>..</div>. All other elements within theMoment overlay appear as a child of this element. (On AU's currently live site, the  player object is window["video-ooyala-player"] and ovrGen_layer is added as a child of <div class='rau-player'>..</div>)
 
 TheMoment extracts the unique identifier of the currently loaded video from '**data-embed-code**' — for example:
 
