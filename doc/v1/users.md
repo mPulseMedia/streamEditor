@@ -12,6 +12,10 @@ APIs for end-users and and app clients.
 | ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png) | [https://api.theMoment.tv/v1/users/{id}/playlists](#user_playlist_get_endpoint) | Get a user's playlists |
 | ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png) | [https://api.theMoment.tv/v1/users/{id}/history](#user_history_get_endpoint) | Get a user's history |
 | ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png) | [https://api.theMoment.tv/v1/users/{id}/user_history_add](#user_history_add_endpoint) | Add to user's history |
+| ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png) | [https://api.theMoment.tv/v1/users/{id}/follow/{id}](#user_follow_endpoint) | Start following other user |
+| ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png) | [https://api.theMoment.tv/v1/users/{id}/unfollow/{id}](#user_unfollow_endpoint) | Stop following other user |
+| ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png) | [https://api.theMoment.tv/v1/users/{id}/followers](#user_followers_endpoint) | List who user follows |
+| ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png) | [https://api.theMoment.tv/v1/users/{id}/follows](#user_follows_endpoint) | List who follows user |
 
 ------------------------------------------------
 <a name="user_create_endpoint"></a>
