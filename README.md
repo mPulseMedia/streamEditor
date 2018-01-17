@@ -17,5 +17,3 @@ The streamEditor library adds functionality to live streams and video players. I
 - [Playlist Endpoints](/doc/v1/playlists.md#top) - APIs for playlists (or remixes, which are sequences of moments)
 
 - [User Endpoints](/doc/v1/users.md#top) - APIs for users
-
-- [Other Endpoints](/doc/v1/misc.md#top) - Other related URLs and API calls
