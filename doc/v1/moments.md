@@ -8,6 +8,7 @@ Moments are individual highlights within a live stream/video.
 |         | Endpoint | Description |
 | ------- |-------- | ----------- |
 | ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png) | [https://api.theMoment.tv/v1/moments](#moment_create_endpoint) | Create a new moment |
+| ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png) | [https://api.theMoment.tv/v1/moments/live](#moment_live_endpoint) | Create a new live tag moment|
 | ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png) | [https://api.theMoment.tv/v1/moments/{id}](#moment_update_endpoint) | Update a moment |
 | ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png) | [https://api.theMoment.tv/v1/moments/{id}](#moment_get_endpoint) | Get a moment object |
 | ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png) |  [https://api.theMoment.tv/v1/moments/{partner}/asset/{id}](#moment_partner_asset_endpoint) | Get moments associated with a video |
@@ -20,6 +21,117 @@ Moments are individual highlights within a live stream/video.
 ## https://api.theMoment.tv/v1/moments
 
 Create a new moment.
+
+#### Nametag
+
+[moment_create_endpoint](https://github.com/mPulseMedia/moment_api/search?l=php&q=__moment_create_endpoint)
+
+#### Parameters
+
+| Name | Required | Type | Description |
+| ---- | ---- | ---- | ---- |
+| asset_source | required | string | Source of the moment (twitch, youtube, facebook, vimeo etc.) |
+| asset_resource_id | required | string | Partner specific ID of the asset |
+| time_start | required | number | Starting time of the moment. For live channel it should be the UTC timestamp |
+| tag | required | string | Tag of the moment |
+| auid | required | string | Identifier of the client |
+| | | |
+| asset_publisher | optional | string | Partner specific ID of the publisher |
+| asset_publisher_original_id | optional | string | Partner specific display name of the publisher|
+| asset_title | optional | string | Title of the asset |
+| asset_duration | optional | string | Duration of the asset |
+| asset_thumb | optional | string | Thumbnail preview of the asset |
+| asset_url | optional | string | URL of the asset |
+| asset_statue | optional | string | Current status of the asset. Could be recording or recorded |
+| asset_recorded_at | optional | time | Time asset was recorded (UTC) |
+| game | optional | string | Associated game of the asset |
+| timestamp | optional | number | Timestamp of the time moment is created (UTC) |
+
+#### Example Request
+
+```bash
+curl --data "\
+asset_source=twitch&\
+asset_resource_id=v77076652&\
+time_start=1468066157&\
+tag=LOL Rampage&\
+auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/moments
+```
+
+#### Example Response
+
+```json
+{
+    "id": "21061",
+    "asset_id": "2005",
+    "publisher_id": "79529",
+    "tag": "LOL Rampage!",
+    "time_start": "11549",
+    "timestamp": "1468066157",
+    "time_end": "11569",
+    "time_percent_start": "0.00",
+    "time_percent_end": "0.00",
+    "status_public": "1",
+    "status_blocked": "0",
+    "status_deleted": "0",
+    "count_played": "0",
+    "count_played_dup": "0",
+    "count_shared": "0",
+    "search_string": "LOL Rampage",
+    "copy_moment_id": "0",
+    "goto_moment_id": "0",
+    "epoch_added": "1468066159",
+    "asset": {
+        "id": "2005",
+        "epoch_added": "1468066159",
+        "source": "3",
+        "resource_id": "v77076652",
+        "thumb": "https:\/\/static-cdn.jtvnw.net\/previews-ttv\/live_user_eulcs2-320x180.jpg",
+        "duration": "11245.00",
+        "status": "recording",
+        "status_deleted": "0",
+        "recorded_at": "1468054573",
+        "title": "EU LCS Summer - Week 6 Day 2: Fnatic vs. Unicorns Of Love (EULCS2)",
+        "channel_id": "508",
+        "game_id": "2",
+        "publisher": "EULCS2",
+        "publisher_original_id": "eulcs2",
+        "url": "https:\/\/secure.twitch.tv\/eulcs2\/v\/77076652",
+        "storyboard_spec": "0",
+        "channel": {
+            "channel_id": "508",
+            "partner": "3",
+            "channel_name_original": "eulcs2",
+            "channel_name": "EULCS2"
+        },
+        "game": {
+            "game_id": "2",
+            "partner": "3",
+            "game_name_original": "League of Legends"
+        }
+    },
+    "user": {
+        "id": "79529",
+        "display_name": "anonymous",
+        "image": "",
+        "personalize": "",
+        "followers": 0
+    },
+    "addedTo": [{
+        "id": "2733",
+        "title": "EULCS2: EU LCS Summer - Week 6 Day 2: Fnatic vs. Unicorns Of Love (EULCS2)"
+    }]
+}
+```
+
+------------------------------------------------
+<a name="moment_live_endpoint"></a>
+[<](#top)
+
+![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png)
+## https://api.theMoment.tv/v1/moments/live
+
+Create a new live tag moment.
 
 #### Nametag
 
