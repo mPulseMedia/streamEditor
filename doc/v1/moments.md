@@ -7,7 +7,7 @@ Moments are individual highlights within a live stream/video.
 
 |         | Endpoint | Description |
 | ------- |-------- | ----------- |
-| ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png) | [https://api.theMoment.tv/v1/moments](#moment_create_endpoint) | Create a new moment |
+| [<img src="https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png"](#moment_create_endpoint) | [https://api.theMoment.tv/v1/moments](#moment_create_endpoint) | Create a new moment |
 | ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png) | [https://api.theMoment.tv/v1/moments/live](#moment_live_endpoint) | Create a new live tag moment|
 | ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png) | [https://api.theMoment.tv/v1/moments/{id}](#moment_update_endpoint) | Update a moment |
 | ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png) | [https://api.theMoment.tv/v1/moments/{id}](#moment_get_endpoint) | Get a moment object |
