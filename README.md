@@ -6,10 +6,6 @@ The streamEditor library adds functionality to live streams and video players. I
 
 <img src="/doc/v1/screenshot.png" width="75%" height="75%" />
 
-#### Introduction
-
-- [Objects](/doc/v1/objects.md#top) - Introduction to key Objects, Methods & Nametags throughout the code
-
 #### API Endpoints
 
 - [Moment Endpoints](/doc/v1/moments.md#top) - APIs for individual moments (or highlights)
@@ -17,3 +13,7 @@ The streamEditor library adds functionality to live streams and video players. I
 - [Playlist Endpoints](/doc/v1/playlists.md#top) - APIs for playlists (or remixes, which are sequences of moments)
 
 - [User Endpoints](/doc/v1/users.md#top) - APIs for users
+
+#### Objects
+
+- [Objects](/doc/v1/objects.md#top) - Introduction to key Objects, Methods & Nametags throughout the code
