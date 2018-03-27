@@ -7,21 +7,21 @@ APIs for end-users and and app clients.
 
 |       | Endpoint | Description |
 | ----- |-------- | ----------- |
-| ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png) | [https://api.theMoment.tv/v1/users](#user_create_endpoint) | Create a new user |
-| ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png) | [https://api.theMoment.tv/v1/users/{id}/](#user_get_endpoint) | Get a user object |
-| ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png) | [https://api.theMoment.tv/v1/users/{id}/playlists](#user_playlist_get_endpoint) | Get a user's playlists |
-| ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png) | [https://api.theMoment.tv/v1/users/{id}/history](#user_history_get_endpoint) | Get a user's history |
-| ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png) | [https://api.theMoment.tv/v1/users/{id}/user_history_add](#user_history_add_endpoint) | Add to user's history |
-| ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png) | [https://api.theMoment.tv/v1/users/{id}/follow/{id}](#user_follow_endpoint) | Start following other user |
-| ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png) | [https://api.theMoment.tv/v1/users/{id}/unfollow/{id}](#user_unfollow_endpoint) | Stop following other user |
-| ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png) | [https://api.theMoment.tv/v1/users/{id}/followers](#user_followers_endpoint) | List who user follows |
-| ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png) | [https://api.theMoment.tv/v1/users/{id}/follows](#user_follows_endpoint) | List who follows user |
+| [![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)](#user_create_endpoint) | [https://api.theMoment.tv/v1/users](#user_create_endpoint) | Create a new user |
+| [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)](#user_get_endpoint) | [https://api.theMoment.tv/v1/users/{id}/](#user_get_endpoint) | Get a user object |
+| [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)](#user_playlist_get_endpoint) | [https://api.theMoment.tv/v1/users/{id}/playlists](#user_playlist_get_endpoint) | Get a user's playlists |
+| [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)](#user_history_get_endpoint) | [https://api.theMoment.tv/v1/users/{id}/history](#user_history_get_endpoint) | Get a user's history |
+| [![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)](#user_history_add_endpoint) | [https://api.theMoment.tv/v1/users/{id}/user_history_add](#user_history_add_endpoint) | Add to user's history |
+| [![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)](#user_follow_endpoint) | [https://api.theMoment.tv/v1/users/{id}/follow/{id}](#user_follow_endpoint) | Start following other user |
+| [![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)](#user_unfollow_endpoint) | [https://api.theMoment.tv/v1/users/{id}/unfollow/{id}](#user_unfollow_endpoint) | Stop following other user |
+| [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)](#user_followers_endpoint) | [https://api.theMoment.tv/v1/users/{id}/followers](#user_followers_endpoint) | List who user follows |
+| [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)](#user_follows_endpoint) | [https://api.theMoment.tv/v1/users/{id}/follows](#user_follows_endpoint) | List who follows user |
 
 ------------------------------------------------
 <a name="user_create_endpoint"></a>
 [<](#top)
 
-![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png)
+![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)
 ## https://api.theMoment.tv/v1/users
 
 Create new user.
@@ -64,7 +64,7 @@ display_name=Paul Smith" https://api.themoment.tv/v1/users
 <a name="user_get_endpoint"></a>
 [<](#top)
 
-![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png)
+![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)
 ## https://api.theMoment.tv/v1/users/{id}/
 
 Get user object.
@@ -95,7 +95,7 @@ curl -X GET https://api.themoment.tv/v1/users/508
 ------------------------------------------------
 <a name="user_playlist_get_endpoint"></a>[<](#top)
 
-![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png)
+![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)
 ## https://api.theMoment.tv/v1/users/{id}/playlists
 
 Get user's playlists.
@@ -167,7 +167,7 @@ curl -X GET https://api.themoment.tv/v1/users/pyLvpx3XTGXfJG0OtlBnOZpWgLgFi9RIHC
 <a name="user_history_get_endpoint"></a>
 [<](#top)
 
-![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png)
+![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)
 ## https://api.theMoment.tv/v1/users/{id}/history
 
 Get user's history.
@@ -240,7 +240,7 @@ curl -X GET https://api.themoment.tv/v1/users/pyLvpx3XTGXfJG0OtlBnOZpWgLgFi9RIHC
 <a name="user_history_add_endpoint"></a>
 [<](#top)
 
-![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png)
+![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)
 ## https://api.theMoment.tv/v1/users/{id}/user_history_add
 
 Add to user's history.
