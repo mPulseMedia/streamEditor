@@ -16,6 +16,7 @@ APIs for end-users and and app clients.
 | [![PUT](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/put.png)](#user_unfollow_endpoint) | [https://api.theMoment.tv/v1/users/{id}/unfollow/{id}](#user_unfollow_endpoint) | Stop following other user |
 | [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)](#user_followers_endpoint) | [https://api.theMoment.tv/v1/users/{id}/followers](#user_followers_endpoint) | List who user follows |
 | [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)](#user_follows_endpoint) | [https://api.theMoment.tv/v1/users/{id}/follows](#user_follows_endpoint) | List who follows user |
+| [![DELETE](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/delete.png)](#user_delete_endpoint) | [https://api.theMoment.tv/v1/users/{id}](#user_delete_endpoint) | Delete user |
 
 ------------------------------------------------
 <a name="user_create_endpoint"></a>
@@ -269,4 +270,26 @@ object_type=p" https://api.themoment.tv/v1/users/0/user_history_add
 {
     "status":"success"
 }
+```
+
+
+------------------------------------------------
+
+<a name="user_delete_endpoint"></a>
+[<](#top)
+
+![DELETE](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/delete.png)
+## https://api.theMoment.tv/v1/users/{id}
+
+Delete user.
+
+#### Nametag
+[user_delete_endpoint](https://github.com/mPulseMedia/moment_api/search?l=php&q=__user_delete_endpoint)
+
+#### Example Request
+
+The following example deletes user with given ID.
+
+```bash
+curl -X DELETE https://api.themoment.tv/v1/users/0
 ```
