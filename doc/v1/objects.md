@@ -78,11 +78,19 @@ Player
 - [player](http://app-dev.themoment.tv/nametag.php#player) - abstracted video player connected to calls for partner-specific players
 
 Host
-- [twitch](http://app-dev.themoment.tv/nametag.php#twitch)   - methods specific to twitch
+- [html5](http://app-dev.themoment.tv/nametag.php#html5) - methods specific to html5
 - [youtube](http://app-dev.themoment.tv/nametag.php#youtube) - methods specific to youtube
+- [twitch](http://app-dev.themoment.tv/nametag.php#twitch)   - methods specific to twitch
 - [webex](http://app-dev.themoment.tv/nametag.php#webex)     - methods specific to webex
 - [vidyard](http://app-dev.themoment.tv/nametag.php#vidyard) - methods specific to vidyard
 - [ustream](http://app-dev.themoment.tv/nametag.php#ustream) - methods specific to ustream
+- [ooyala](http://app-dev.themoment.tv/nametag.php#ooyala) - methods specific to ooyala
+- [pac12](http://app-dev.themoment.tv/nametag.php#pac12) - methods specific to pac12
+- [wistia](http://app-dev.themoment.tv/nametag.php#wistia) - methods specific to wistia
+- [amazon](http://app-dev.themoment.tv/nametag.php#amazon) - methods specific to amazon
+- [dropbox](http://app-dev.themoment.tv/nametag.php#dropbox) - methods specific to dropbox
+- [flash](http://app-dev.themoment.tv/nametag.php#flash) - methods specific to flash
+- and others
 
 ------------------------------------------------
 <a name="backend_object"></a>
