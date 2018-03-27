@@ -4,7 +4,7 @@
 
 The streamEditor library adds functionality to live streams and video players. It allows users to mark highlights (or moments) and group them into remixes (or playlists) to replay and share -- even while the live event is still happening.
 
-<img src="/doc/v1/screenshot.png" width="75%" height="75%" />
+<img src="https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/screenshot.png" width="75%" height="75%" />
 
 #### API Endpoints
 
