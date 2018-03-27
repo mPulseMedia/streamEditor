@@ -41,9 +41,9 @@ Create new user.
 
 ```bash
 curl --data "\
-email=paul%40mpulsemedia.com&\
+email=email&\
 gender=male&\
-display_name=Paul Smith" https://api.themoment.tv/v1/users
+display_name=display_name" https://api.themoment.tv/v1/users
 ```
 
 ### Example Response
@@ -75,7 +75,7 @@ Get user object.
 ### Example Request
 
 ```bash
-curl -X GET https://api.themoment.tv/v1/users/508
+curl -X GET https://api.themoment.tv/v1/users/0
 ```
 
 ### Example Response
@@ -113,7 +113,7 @@ Get user's playlists.
 ### Example Request
 
 ```
-curl -X GET https://api.themoment.tv/v1/users/pyLvpx3XTGXfJG0OtlBnOZpWgLgFi9RIHCd79g43W2jGIkvbG6zu6YrnJH22RULy/playlists?limit=1
+curl -X GET https://api.themoment.tv/v1/users/0/playlists?limit=1
 ```
 
 ### Example Response
@@ -185,7 +185,7 @@ Get user's viewing history.
 ### Example Request
 
 ```bash
-curl -X GET https://api.themoment.tv/v1/users/pyLvpx3XTGXfJG0OtlBnOZpWgLgFi9RIHCd79g43W2jGIkvbG6zu6YrnJH22RULy/history?limit=1
+curl -X GET https://api.themoment.tv/v1/users/0/history?limit=1
 ```
 
 ### Example Response
@@ -260,7 +260,7 @@ Add to user's viewing history.
 ```bash
 curl --data "\
 object_id=2871&\
-object_type=p" https://api.themoment.tv/v1/users/pyLvpx3XTGXfJG0OtlBnOZpWgLgFi9RIHCd79g43W2jGIkvbG6zu6YrnJH22RULy/user_history_add
+object_type=p" https://api.themoment.tv/v1/users/0/user_history_add
 ```
 
 ### Example Response
