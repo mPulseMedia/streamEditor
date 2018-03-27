@@ -13,7 +13,7 @@ Playlists, or 'remixes' as presented to users, are a series of moments/highlight
 | [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)](#playlist_partner_asset_endpoint) |  [https://api.theMoment.tv/v1/playlists/{partner}/asset/{id}](#playlist_partner_asset_endpoint) | Get playlists associated with a video |
 | [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)](#playlist_partner_channel_endpoint) |  [https://api.theMoment.tv/v1/playlists/{partner}/channel/{id}](#playlist_partner_channel_endpoint) | Get playlists associated with a channel |
 | [![PUT](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/put.png)](#playlist_moment_position_set_endpoint) |  [https://api.theMoment.tv/v1/playlists/{id}/moment_position_set](#playlist_moment_position_set_endpoint) | Sets the position of a moment within a playlist |
-| [![DELETE](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/delete.png)](#playlist_moment_delete_endpoint) |  [https://api.theMoment.tv/v1/playlists/{id}](#playlist_moment_delete_endpoint) | Delete playlist |
+| [![DELETE](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/delete.png)](#playlist_delete_endpoint) |  [https://api.theMoment.tv/v1/playlists/{id}](#playlist_delete_endpoint) | Delete playlist |
 
 ------------------------------------------------
 <a name="playlist_create_endpoint"></a>
