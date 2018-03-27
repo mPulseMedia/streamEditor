@@ -10,8 +10,8 @@ APIs for end-users and and app clients.
 | [![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)](#user_create_endpoint) | [https://api.theMoment.tv/v1/users](#user_create_endpoint) | Create a new user |
 | [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)](#user_get_endpoint) | [https://api.theMoment.tv/v1/users/{id}/](#user_get_endpoint) | Get a user object |
 | [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)](#user_playlist_get_endpoint) | [https://api.theMoment.tv/v1/users/{id}/playlists](#user_playlist_get_endpoint) | Get a user's playlists |
-| [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)](#user_history_get_endpoint) | [https://api.theMoment.tv/v1/users/{id}/history](#user_history_get_endpoint) | Get a user's history |
-| [![PUT](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/put.png)](#user_history_add_endpoint) | [https://api.theMoment.tv/v1/users/{id}/user_history_add](#user_history_add_endpoint) | Add to user's playlist viewing history |
+| [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)](#user_history_get_endpoint) | [https://api.theMoment.tv/v1/users/{id}/history](#user_history_get_endpoint) | Get a user's  viewing history |
+| [![PUT](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/put.png)](#user_history_add_endpoint) | [https://api.theMoment.tv/v1/users/{id}/user_history_add](#user_history_add_endpoint) | Add to user's  viewing history |
 | [![PUT](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/put.png)](#user_follow_endpoint) | [https://api.theMoment.tv/v1/users/{id}/follow/{id}](#user_follow_endpoint) | Start following other user |
 | [![PUT](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/put.png)](#user_unfollow_endpoint) | [https://api.theMoment.tv/v1/users/{id}/unfollow/{id}](#user_unfollow_endpoint) | Stop following other user |
 | [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)](#user_followers_endpoint) | [https://api.theMoment.tv/v1/users/{id}/followers](#user_followers_endpoint) | List who user follows |
@@ -170,7 +170,7 @@ curl -X GET https://api.themoment.tv/v1/users/pyLvpx3XTGXfJG0OtlBnOZpWgLgFi9RIHC
 ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)
 ## https://api.theMoment.tv/v1/users/{id}/history
 
-Get user's history.
+Get user's viewing history.
 
 #### Nametag
 [user_history_get_endpoint](https://github.com/mPulseMedia/moment_api/search?l=php&q=__user_history_get_endpoint)
@@ -243,7 +243,7 @@ curl -X GET https://api.themoment.tv/v1/users/pyLvpx3XTGXfJG0OtlBnOZpWgLgFi9RIHC
 ![PUT](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/put.png)
 ## https://api.theMoment.tv/v1/users/{id}/user_history_add
 
-Add to user's playlist viewing history.
+Add to user's viewing history.
 
 #### Nametag
 [user_history_add_endpoint](https://github.com/mPulseMedia/moment_api/search?l=php&q=__user_history_add_endpoint)
