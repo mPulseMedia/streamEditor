@@ -43,8 +43,8 @@ The following is an index of nametags through the API and site projects: [http:/
 <a name="user_object"></a>
 ## Users
 
-- [User](http://app-dev.themoment.tv/nametag.php#User) - user-related methods
-- [Profile](http://app-dev.themoment.tv/nametag.php#Profile) - page to display user Profile
+- [user](http://app-dev.themoment.tv/nametag.php#User) - user-related methods
+- [profile](http://app-dev.themoment.tv/nametag.php#Profile) - page to display user Profile
 
 ------------------------------------------------
 <a name="asset_object"></a>
@@ -52,8 +52,8 @@ The following is an index of nametags through the API and site projects: [http:/
 
 Assets refer to the underlying VOD asset of videos and live streams.
 
-- [Asset](http://app-dev.themoment.tv/nametag.php#asset) - VOD (videoon demand)
-- [Channel](http://app-dev.themoment.tv/nametag.php#channel) - Live streams
+- [asset](http://app-dev.themoment.tv/nametag.php#asset) - VOD (videoon demand)
+- [channel](http://app-dev.themoment.tv/nametag.php#channel) - Live streams
 
 ------------------------------------------------
 <a name="app_object"></a>
