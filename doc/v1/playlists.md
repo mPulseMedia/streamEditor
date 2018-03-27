@@ -13,6 +13,7 @@ Playlists, or 'remixes' as presented to users, are a series of moments/highlight
 | ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png) |  [https://api.theMoment.tv/v1/playlists/{partner}/asset/{id}](#playlist_partner_asset_endpoint) | Get playlists associated with a video |
 | ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png) |  [https://api.theMoment.tv/v1/playlists/{partner}/channel/{id}](#playlist_partner_channel_endpoint) | Get playlists associated with a channel |
 | ![PUT](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/put.png) |  [https://api.theMoment.tv/v1/playlists/{id}/moment_position_set](#playlist_moment_position_set_endpoint) | Sets the position of a moment within a playlist |
+| ![DELETE](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/delete.png) |  [https://api.theMoment.tv/v1/playlists/{id}](#playlist_moment_delete_endpoint) | Delete playlist |
 
 ------------------------------------------------
 <a name="playlist_create_endpoint"></a>
@@ -610,4 +611,26 @@ moment_id=0" https://api.themoment.tv/v1/playlists/0/moment_position_set
 {
     "status": "success"
 }
+```
+
+
+------------------------------------------------
+<a name="playlist_delete_endpoint"></a>
+[<](#top)
+
+![PUT](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/delete.png)
+## https://api.theMoment.tv/v1/playlists/{id}
+
+Delete playlist.
+
+#### Nametag
+
+[playlist_delete_endpoint](https://github.com/mPulseMedia/moment_api/search?l=php&q=__playlist_delete_endpoint)
+
+#### Example Request
+
+The following example deletes playlist with given ID.
+
+```bash
+curl -X DELETE https://api.themoment.tv/v1/playlists/0
 ```
