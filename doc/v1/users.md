@@ -83,11 +83,11 @@ curl -X GET https://api.themoment.tv/v1/users/508
 ```json
 {
     "user": {
-        "id": "508",
-        "display_name": "Paul Smith",
-        "image": "https://lh5.googleusercontent.com/-7zm0FzqLBQw/AAAAAAAAAAI/AAAAAAAAAFQ/_gZf8WbbDa8/photo.jpg?sz=50",
-        "personalize": "{\"favorite_partner_channel\":\"twitch\\/showdowngg,twitch\\/ShowdownSmash,twitch\\/onenationofgames\",\"pNext_skip\":\"false\"}",
-        "followers": 8
+        "id":           "0",
+        "display_name": "display_name",
+        "image":        "image",
+        "personalize":  "personalize",
+        "followers":    0
     }
 }
 ```
@@ -120,43 +120,43 @@ curl -X GET https://api.themoment.tv/v1/users/pyLvpx3XTGXfJG0OtlBnOZpWgLgFi9RIHC
 
 ```json
 {
-    "total": 19,
-    "offset": 0,
-    "limit": "1",
+    "total":                     0,
+    "offset":                    0,
+    "limit":                     "0",
     "items": [
         {
-            "id": "2836",
-            "title": "Capn_Flint: Partner Spotlight!!! Star Citizen & Starfarer giveaway!",
-            "thumb": "",
-            "moment_count": "2",
-            "duration": "60",
-            "publisher_id": "508",
-            "status_public": "1",
-            "status_blocked": "0",
-            "status_deleted": "0",
-            "copy_playlist_id": "0",
-            "count_played": "0",
-            "count_played_dup": "1",
-            "count_shared": "0",
-            "epoch_added": "1468013221",
-            "mode": "sticky_stream",
-            "terms": "",
-            "status_changed": "0",
-            "playlist_type": "0",
-            "channel_ids": "564",
-            "game_ids": "59",
-            "asset_ids": "2054",
-            "sticky_asset_id": "2054",
-            "moments": "22014,22015",
-            "user_id": "508",
-            "user_display_name": "Paul Smith",
-            "user_image": "https://lh5.googleusercontent.com/-7zm0FzqLBQw/AAAAAAAAAAI/AAAAAAAAAFQ/_gZf8WbbDa8/photo.jpg?sz=50",
-            "user_personalize": "{\"favorite_partner_channel\":\"twitch\\/showdowngg,twitch\\/ShowdownSmash,twitch\\/onenationofgames\",\"pNext_skip\":\"false\"}",
+            "id":                "0",
+            "title":             "title",
+            "thumb":             "thumb",
+            "moment_count":      "0",
+            "duration":          "0",
+            "publisher_id":      "0",
+            "status_public":     "0",
+            "status_blocked":    "0",
+            "status_deleted":    "0",
+            "copy_playlist_id":  "0",
+            "count_played":      "0",
+            "count_played_dup":  "0",
+            "count_shared":      "0",
+            "epoch_added":       "0",
+            "mode":              "mode",
+            "terms":             "",
+            "status_changed":    "0",
+            "playlist_type":     "0",
+            "channel_ids":       "0",
+            "game_ids":          "0",
+            "asset_ids":         "0",
+            "sticky_asset_id":   "0",
+            "moments":           "0,0",
+            "user_id":           "0",
+            "user_display_name": "user_display_name",
+            "user_image":        "user_image",
+            "user_personalize":  "user_personalize",
             "user": {
-                "id": "508",
-                "display_name": "Paul Smith",
-                "image": "https://lh5.googleusercontent.com/-7zm0FzqLBQw/AAAAAAAAAAI/AAAAAAAAAFQ/_gZf8WbbDa8/photo.jpg?sz=50",
-                "personalize": "{\"favorite_partner_channel\":\"twitch\\/showdowngg,twitch\\/ShowdownSmash,twitch\\/onenationofgames\",\"pNext_skip\":\"false\"}"
+                "id":            "0",
+                "display_name":  "display_name",
+                "image":         "image",
+                "personalize":   "personalize"
             }
         }
     ]
@@ -192,43 +192,43 @@ curl -X GET https://api.themoment.tv/v1/users/pyLvpx3XTGXfJG0OtlBnOZpWgLgFi9RIHC
 
 ```json
 {
-    "total": 339,
-    "offset": 0,
-    "limit": "1",
+    "total":                     0,
+    "offset":                    0,
+    "limit":                     "0",
     "items": [
         {
-            "id": "2871",
-            "title": "BeyondTheSummit: Luminosity vs Liquid - Overwatch Cup - @AskJoshy & @JetSetJamerson",
-            "thumb": "",
-            "moment_count": "9",
-            "duration": "180",
-            "publisher_id": "5199",
-            "status_public": "1",
-            "status_blocked": "0",
-            "status_deleted": "0",
-            "copy_playlist_id": "0",
-            "count_played": "2",
-            "count_played_dup": "2",
-            "count_shared": "0",
-            "epoch_added": "1468178216",
-            "mode": "sticky_stream",
-            "terms": "",
-            "status_changed": "0",
-            "playlist_type": "0",
-            "channel_ids": "37",
-            "game_ids": "21",
-            "asset_ids": "2064",
-            "sticky_asset_id": "2064",
-            "moments": "22176,22177,22179,22180,22182,22186,22188,22189,22190",
-            "user_id": "5199",
-            "user_display_name": "isaac basabe",
-            "user_image": "https://lh6.googleusercontent.com/-8jtBDWcg9N0/AAAAAAAAAAI/AAAAAAAAADk/J3Jvt9ASg2k/photo.jpg?sz=50",
-            "user_personalize": "",
-            "user": {
-                "id": "5199",
-                "display_name": "isaac basabe",
-                "image": "https://lh6.googleusercontent.com/-8jtBDWcg9N0/AAAAAAAAAAI/AAAAAAAAADk/J3Jvt9ASg2k/photo.jpg?sz=50",
-                "personalize": ""
+            "id":                "0",
+            "title":             "title",
+            "thumb":             "thumb",
+            "moment_count":      "0",
+            "duration":          "0",
+            "publisher_id":      "0",
+            "status_public":     "0",
+            "status_blocked":    "0",
+            "status_deleted":    "0",
+            "copy_playlist_id":  "0",
+            "count_played":      "0",
+            "count_played_dup":  "0",
+            "count_shared":      "0",
+            "epoch_added":       "0",
+            "mode":              "mode",
+            "terms":             "",
+            "status_changed":    "0",
+            "playlist_type":     "0",
+            "channel_ids":       "0",
+            "game_ids":          "0",
+            "asset_ids":         "0",
+            "sticky_asset_id":   "0",
+            "moments":           "0,0",
+            "user_id":           "0",
+            "user_display_name": "user_display_name",
+            "user_image":        "user_image",
+            "user_personalize":  "user_personalize",
+            "user":  {
+                "id":            "0",
+                "display_name":  "display_name",
+                "image":         "image",
+                "personalize":   "personalize"
             }
         }
     ]
