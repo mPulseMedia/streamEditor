@@ -9,9 +9,10 @@ Moments are individual highlights within a live stream/video.
 | ------- |-------- | ----------- |
 | [![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)](#moment_create_endpoint) | [https://api.theMoment.tv/v1/moments](#moment_create_endpoint) | Create a new moment |
 | [![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)](#moment_live_endpoint) | [https://api.theMoment.tv/v1/moments/live](#moment_live_endpoint) | Create a new live tag moment|
-| [![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/put.png)](#moment_update_endpoint) | [https://api.theMoment.tv/v1/moments/{id}](#moment_update_endpoint) | Update a moment |
+| [![PUT](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/put.png)](#moment_update_endpoint) | [https://api.theMoment.tv/v1/moments/{id}](#moment_update_endpoint) | Update a moment |
 | [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)](#moment_get_endpoint) | [https://api.theMoment.tv/v1/moments/{id}](#moment_get_endpoint) | Get a moment object |
 | [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)](#moment_partner_asset_endpoint) |  [https://api.theMoment.tv/v1/moments/{partner}/asset/{id}](#moment_partner_asset_endpoint) | Get moments associated with a video |
+| [![DELETE](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/delete.png)](#moment_delete) |  [https://api.theMoment.tv/v1/moments/{id}](#moment_delete) | Delete moment |
 
 ------------------------------------------------
 <a name="moment_create_endpoint"></a>
@@ -203,7 +204,7 @@ api_key=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/moments/li
 <a name="moment_update_endpoint"></a>
 [<](#top)
 
-![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/put.png)
+![PUT](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/put.png)
 ## https://api.theMoment.tv/v1/moments/{id}
 
 Update a moment.
@@ -439,4 +440,27 @@ curl -X GET https://api.themoment.tv/v1/moments/twitch/asset/v66318170
     },
     ....
 ]
+```
+
+
+
+------------------------------------------------
+
+<a name="moment_delete_endpoint"></a>
+[<](#top)
+
+![DELETE](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/delete.png)
+## https://api.theMoment.tv/v1/moments/{id}
+
+Delete moment with given ID.
+
+#### Nametag
+[moment_delete_endpoint](https://github.com/mPulseMedia/moment_api/search?l=php&q=__moment_delete_endpoint)
+
+#### Example Request
+
+The following example delete moment with given ID.
+
+```bash
+curl -X DELETE https://api.themoment.tv/v1/moments/123
 ```
