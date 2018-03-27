@@ -7,17 +7,17 @@ Moments are individual highlights within a live stream/video.
 
 |         | Endpoint | Description |
 | ------- |-------- | ----------- |
-| [![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png)](#moment_create_endpoint) | [https://api.theMoment.tv/v1/moments](#moment_create_endpoint) | Create a new moment |
-| [![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png)](#moment_live_endpoint) | [https://api.theMoment.tv/v1/moments/live](#moment_live_endpoint) | Create a new live tag moment|
-| [![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png)](#moment_update_endpoint) | [https://api.theMoment.tv/v1/moments/{id}](#moment_update_endpoint) | Update a moment |
-| [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png)](#moment_get_endpoint) | [https://api.theMoment.tv/v1/moments/{id}](#moment_get_endpoint) | Get a moment object |
-| [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png)](#moment_partner_asset_endpoint) |  [https://api.theMoment.tv/v1/moments/{partner}/asset/{id}](#moment_partner_asset_endpoint) | Get moments associated with a video |
+| [![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)](#moment_create_endpoint) | [https://api.theMoment.tv/v1/moments](#moment_create_endpoint) | Create a new moment |
+| [![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)](#moment_live_endpoint) | [https://api.theMoment.tv/v1/moments/live](#moment_live_endpoint) | Create a new live tag moment|
+| [![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)](#moment_update_endpoint) | [https://api.theMoment.tv/v1/moments/{id}](#moment_update_endpoint) | Update a moment |
+| [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)](#moment_get_endpoint) | [https://api.theMoment.tv/v1/moments/{id}](#moment_get_endpoint) | Get a moment object |
+| [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)](#moment_partner_asset_endpoint) |  [https://api.theMoment.tv/v1/moments/{partner}/asset/{id}](#moment_partner_asset_endpoint) | Get moments associated with a video |
 
 ------------------------------------------------
 <a name="moment_create_endpoint"></a>
 [<](#top)
 
-![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png)
+![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)
 ## https://api.theMoment.tv/v1/moments
 
 Create a new moment.
@@ -128,7 +128,7 @@ auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/moments
 <a name="moment_live_endpoint"></a>
 [<](#top)
 
-![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png)
+![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)
 ## https://api.theMoment.tv/v1/moments/live
 
 Create a new live tag moment.
@@ -203,7 +203,7 @@ api_key=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/moments/li
 <a name="moment_update_endpoint"></a>
 [<](#top)
 
-![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png)
+![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)
 ## https://api.theMoment.tv/v1/moments/{id}
 
 Update a moment.
@@ -299,7 +299,7 @@ auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/moments/21061
 <a name="moment_get_endpoint"></a>
 [<](#top)
 
-![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png)
+![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)
 ## https://api.theMoment.tv/v1/moments/{id}
 
 Get object data about an individual moment as identified by its id.
@@ -368,7 +368,7 @@ curl -X GET https://api.themoment.tv/v1/moments/2599
 <a name="moment_partner_asset_endpoint"></a>
 [<](#top)
 
-![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png)
+![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)
 ## https://api.theMoment.tv/v1/moments/{partner}/asset/{id}
 
 Get moments associated with a video. Partner can be twitch, youtube, facebook, vimeo etc and id is the video ID.
