@@ -83,32 +83,32 @@ auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/moments
     "goto_moment_id":     "0",
     "epoch_added":        "0",
     "asset": {
-        "id":                    "0",
-        "epoch_added":           "0",
-        "source":                "0",
-        "resource_id":           "0",
-        "thumb":                 "thumb",
-        "duration":              "0",
-        "status":                "status",
-        "status_deleted":        "0",
-        "recorded_at":           "0",
-        "title":                 "title",
-        "channel_id":            "0",
-        "game_id":               "0",
-        "publisher":             "publisher",
-        "publisher_original_id": "publisher_original_id",
-        "url":                   "url",
-        "storyboard_spec":       "0",
-        "channel": {
+        "id":                        "0",
+        "epoch_added":               "0",
+        "source":                    "0",
+        "resource_id":               "0",
+        "thumb":                     "thumb",
+        "duration":                  "0",
+        "status":                    "status",
+        "status_deleted":            "0",
+        "recorded_at":               "0",
+        "title":                     "title",
+        "channel_id":                "0",
+        "game_id":                   "0",
+        "publisher":                 "publisher",
+        "publisher_original_id":     "publisher_original_id",
+        "url":                       "url",
+        "storyboard_spec":           "0",
+        "channel":                   {
             "channel_id":            "0",
             "partner":               "0",
             "channel_name_original": "channel_name_original",
             "channel_name":          "channel_name"
         },
-        "game": {
-            "game_id":            "0",
-            "partner":            "0",
-            "game_name_original": "game_name_original"
+        "game":                      {
+            "game_id":               "0",
+            "partner":               "0",
+            "game_name_original":    "game_name_original"
         }
     },
     "user": {
@@ -164,37 +164,37 @@ api_key=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/moments/li
 
 ```json
 {
-    "id": "21061",
-    "asset_id": "2005",
-    "publisher_id": "79529",
-    "tag": "LOL Rampage!",
-    "time_start": "11549",
-    "timestamp": "1468066157",
-    "time_end": "11569",
-    "asset": {
-        "id": "2005",
-        "resource_id": "v77076652",
-        "thumb": "https:\/\/static-cdn.jtvnw.net\/previews-ttv\/live_user_eulcs2-320x180.jpg",
-        "duration": "11245.00",
-        "status": "recording",
-        "recorded_at": "1468054573",
-        "title": "EU LCS Summer - Week 6 Day 2: Fnatic vs. Unicorns Of Love (EULCS2)",
-        "url": "https:\/\/secure.twitch.tv\/eulcs2\/v\/77076652",
-        "channel": {
-            "channel_id": "508",
-            "channel_name_original": "eulcs2",
-            "channel_name": "EULCS2"
+    "id":           "0",
+    "asset_id":     "0",
+    "publisher_id": "0",
+    "tag":          "tag",
+    "time_start":   "0",
+    "timestamp":    "0",
+    "time_end":     "0",
+    "asset":           {
+        "id":          "0",
+        "resource_id": "0",
+        "thumb":       "thumb",
+        "duration":    "0",
+        "status":      "status",
+        "recorded_at": "0",
+        "title":       "title",
+        "url":         "url",
+        "channel":                   {
+            "channel_id":            "0",
+            "channel_name_original": "channel_name_original",
+            "channel_name":          "channel_name"
         }
     },
     "user": {
-        "id": "79529",
-        "display_name": "anonymous",
-        "image": "",
-        "followers": 0
+        "id":           "0",
+        "display_name": "display_name",
+        "image":        "",
+        "followers":    0
     },
     "addedTo": [{
-        "id": "2733",
-        "title": "EULCS2: EU LCS Summer - Week 6 Day 2: Fnatic vs. Unicorns Of Love (EULCS2)",
+        "id":           "0",
+        "title":        "title",
         "moment_count": 3
     }]
 }
