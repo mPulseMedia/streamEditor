@@ -7,18 +7,18 @@ Playlists, or 'remixes' as presented to users, are a series of moments/highlight
 
 |       | Endpoint | Description |
 | ----- | -------- | ----------- |
-| ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png) |  [https://api.theMoment.tv/v1/playlists](#playlist_create_endpoint) | Create a new playlist |
-| ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png) |  [https://api.theMoment.tv/v1/playlists/{id}](#playlist_update_endpoint) | Update a playlist |
-| ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png) |  [https://api.theMoment.tv/v1/playlists/{id}](#playlist_get_endpoint) | Get a playlist object |
-| ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png) |  [https://api.theMoment.tv/v1/playlists/{partner}/asset/{id}](#playlist_partner_asset_endpoint) | Get playlists associated with a video |
-| ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png) |  [https://api.theMoment.tv/v1/playlists/{partner}/channel/{id}](#playlist_partner_channel_endpoint) | Get playlists associated with a channel |
-| ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png) |  [https://api.theMoment.tv/v1/playlists/{id}/moment_position_set](#playlist_moment_position_set_endpoint) | Sets the position of a moment within a playlist |
+| ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png) |  [https://api.theMoment.tv/v1/playlists](#playlist_create_endpoint) | Create a new playlist |
+| ![PUT](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/put.png) |  [https://api.theMoment.tv/v1/playlists/{id}](#playlist_update_endpoint) | Update a playlist |
+| ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png) |  [https://api.theMoment.tv/v1/playlists/{id}](#playlist_get_endpoint) | Get a playlist object |
+| ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png) |  [https://api.theMoment.tv/v1/playlists/{partner}/asset/{id}](#playlist_partner_asset_endpoint) | Get playlists associated with a video |
+| ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png) |  [https://api.theMoment.tv/v1/playlists/{partner}/channel/{id}](#playlist_partner_channel_endpoint) | Get playlists associated with a channel |
+| ![PUT](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/put.png) |  [https://api.theMoment.tv/v1/playlists/{id}/moment_position_set](#playlist_moment_position_set_endpoint) | Sets the position of a moment within a playlist |
 
 ------------------------------------------------
 <a name="playlist_create_endpoint"></a>
 [<](#top)
 
-![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png)
+![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)
 ## https://api.theMoment.tv/v1/playlists
 
 Create a new playlist.
@@ -53,35 +53,35 @@ auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/playlists
 
 ```json
 {
-    "id": "2728",
-    "title": "Awesome moments",
-    "thumb": "",
-    "moment_count": 2,
-    "duration": "40",
-    "publisher_id": "80144",
-    "status_public": "1",
-    "status_blocked": "0",
-    "status_deleted": "0",
+    "id":               "0",
+    "title":            "title",
+    "thumb":            "",
+    "moment_count":     0,
+    "duration":         "0",
+    "publisher_id":     "0",
+    "status_public":    "0",
+    "status_blocked":   "0",
+    "status_deleted":   "0",
     "copy_playlist_id": "0",
-    "count_played": "0",
+    "count_played":     "0",
     "count_played_dup": "0",
-    "count_shared": "0",
-    "epoch_added": "1468067533",
-    "mode": "handpick",
-    "terms": "",
-    "status_changed": "0",
-    "playlist_type": "0",
-    "channel_ids": "508,546",
-    "game_ids": "2",
-    "asset_ids": "1994,1993",
-    "sticky_asset_id": "0",
-    "moments": "21217,21216",
+    "count_shared":     "0",
+    "epoch_added":      "0",
+    "mode":             "mode",
+    "terms":            "",
+    "status_changed":   "0",
+    "playlist_type":    "0",
+    "channel_ids":      "0,0",
+    "game_ids":         "0",
+    "asset_ids":        "0,0",
+    "sticky_asset_id":  "0",
+    "moments":          "0,0",
     "user": {
-        "id": "80144",
-        "display_name": "anonymous",
-        "image": "",
-        "personalize": "",
-        "followers": 0
+        "id":           "0",
+        "display_name": "display_name",
+        "image":        "image",
+        "personalize":  "personalize",
+        "followers":    0
     }
 }
 ```
@@ -90,7 +90,7 @@ auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/playlists
 <a name="playlist_update_endpoint"></a>
 [<](#top)
 
-![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png)
+![PUT](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/put.png)
 ## https://api.theMoment.tv/v1/playlists/{id}
 
 Update a playlist.
@@ -154,7 +154,7 @@ auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/playlists/272
 <a name="playlist_get_endpoint"></a>
 [<](#top)
 
-![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png)
+![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)
 ## https://api.theMoment.tv/v1/playlists/{id}
 
 Get a playlist object.
@@ -315,7 +315,7 @@ curl -X GET https://api.themoment.tv/v1/playlists/2728?limit=10
 <a name="playlist_partner_asset_endpoint"></a>
 [<](#top)
 
-![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png)
+![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)
 ## https://api.theMoment.tv/v1/playlists/{partner}/asset/{id}
 
 Get playlists associated with a video. Partner can be twitch, youtube, facebook, vimeo etc and id is the video ID.
@@ -449,7 +449,7 @@ curl -X GET https://api.themoment.tv/v1/playlists/twitch/asset/v66318170?limit=1
 <a name="playlist_partner_channel_endpoint"></a>
 [<](#top)
 
-![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_get.png)
+![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)
 ## https://api.theMoment.tv/v1/playlists/{partner}/channel/{id}
 
 Get playlists associated with a channel. Partner can be twitch, youtube, facebook, vimeo etc and id is the channel name.
@@ -578,7 +578,7 @@ curl -X GET https://api.themoment.tv/v1/playlists/twitch/channel/riotgames?limit
 <a name="playlist_moment_position_set_endpoint"></a>
 [<](#top)
 
-![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/doc_api_post.png)
+![PUT](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/put.png)
 ## https://api.theMoment.tv/v1/playlists/{id}/moment_position_set
 
 Sets the position of a moment within a playlist.
