@@ -164,38 +164,38 @@ api_key=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/moments/li
 
 ```json
 {
-    "id":           "0",
-    "asset_id":     "0",
-    "publisher_id": "0",
-    "tag":          "tag",
-    "time_start":   "0",
-    "timestamp":    "0",
-    "time_end":     "0",
-    "asset":           {
-        "id":          "0",
-        "resource_id": "0",
-        "thumb":       "thumb",
-        "duration":    "0",
-        "status":      "status",
-        "recorded_at": "0",
-        "title":       "title",
-        "url":         "url",
-        "channel":                   {
+    "id":                            "0",
+    "asset_id":                      "0",
+    "publisher_id":                  "0",
+    "tag":                           "tag",
+    "time_start":                    "0",
+    "timestamp":                     "0",
+    "time_end":                      "0",
+    "asset": {
+        "id":                        "0",
+        "resource_id":               "0",
+        "thumb":                     "thumb",
+        "duration":                  "0",
+        "status":                    "status",
+        "recorded_at":               "0",
+        "title":                     "title",
+        "url":                       "url",
+        "channel": {
             "channel_id":            "0",
             "channel_name_original": "channel_name_original",
             "channel_name":          "channel_name"
         }
     },
     "user": {
-        "id":           "0",
-        "display_name": "display_name",
-        "image":        "",
-        "followers":    0
+        "id":                        "0",
+        "display_name":              "display_name",
+        "image":                     "",
+        "followers":                 0
     },
     "addedTo": [{
-        "id":           "0",
-        "title":        "title",
-        "moment_count": 3
+        "id":                        "0",
+        "title":                     "title",
+        "moment_count":              3
     }]
 }
 ```
@@ -239,64 +239,64 @@ auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/moments/21061
 
 ```json
 {
-    "id":                 "0",
-    "asset_id":           "0",
-    "publisher_id":       "0",
-    "tag":                "tag",
-    "time_start":         "0",
-    "timestamp":          "0",
-    "time_end":           "0",
-    "time_percent_start": "0",
-    "time_percent_end":   "0",
-    "status_public":      "0",
-    "status_blocked":     "0",
-    "status_deleted":     "0",
-    "count_played":       "0",
-    "count_played_dup":   "0",
-    "count_shared":       "0",
-    "search_string":      "search_string",
-    "copy_moment_id":     "0",
-    "goto_moment_id":     "0",
-    "epoch_added":        "0",
+    "id":                            "0",
+    "asset_id":                      "0",
+    "publisher_id":                  "0",
+    "tag":                           "tag",
+    "time_start":                    "0",
+    "timestamp":                     "0",
+    "time_end":                      "0",
+    "time_percent_start":            "0",
+    "time_percent_end":              "0",
+    "status_public":                 "0",
+    "status_blocked":                "0",
+    "status_deleted":                "0",
+    "count_played":                  "0",
+    "count_played_dup":              "0",
+    "count_shared":                  "0",
+    "search_string":                 "search_string",
+    "copy_moment_id":                "0",
+    "goto_moment_id":                "0",
+    "epoch_added":                   "0",
     "asset": {
-        "id":                    "0",
-        "epoch_added":           "0",
-        "source":                "0",
-        "resource_id":           "0",
-        "thumb":                 "thumb",
-        "duration":              "0",
-        "status":                "status",
-        "status_deleted":        "0",
-        "recorded_at":           "0",
-        "title":                 "title",
-        "channel_id":            "0",
-        "game_id":               "0",
-        "publisher":             "publisher",
-        "publisher_original_id": "publisher_original_id",
-        "url":                   "url",
-        "storyboard_spec":       "0",
-        "channel":                   {
+        "id":                        "0",
+        "epoch_added":               "0",
+        "source":                    "0",
+        "resource_id":               "0",
+        "thumb":                     "thumb",
+        "duration":                  "0",
+        "status":                    "status",
+        "status_deleted":            "0",
+        "recorded_at":               "0",
+        "title":                     "title",
+        "channel_id":                "0",
+        "game_id":                   "0",
+        "publisher":                 "publisher",
+        "publisher_original_id":     "publisher_original_id",
+        "url":                       "url",
+        "storyboard_spec":           "0",
+        "channel": {
             "channel_id":            "0",
             "partner":               "0",
             "channel_name_original": "channel_name_original",
             "channel_name":          "channel_name"
         },
-        "game":                      {
-            "game_id":            "0",
-            "partner":            "0",
-            "game_name_original": "game_name_original"
+        "game": {
+            "game_id":               "0",
+            "partner":               "0",
+            "game_name_original":    "game_name_original"
         }
     },
     "user": {
-        "id":           "0",
-        "display_name": "display_name",
-        "image":        "image",
-        "personalize":  "personalize",
-        "followers":    0
+        "id":                        "0",
+        "display_name":              "display_name",
+        "image":                     "image",
+        "personalize":               "personalize",
+        "followers":                 0
     },
     "addedTo": [{
-        "id":    "0",
-        "title": "title"
+        "id":                        "0",
+        "title":                     "title"
     }]
 }
 ```
@@ -323,47 +323,47 @@ curl -X GET https://api.themoment.tv/v1/moments/2599
 #### Example Response
 ```json
 {
-    "id":               "0",
-    "asset_id":         "0",
-    "publisher_id":     "0",
-    "timestamp":        "0",
-    "tag":              "tag",
-    "time_start":       "0",
-    "time_end":         "0",
-    "status_deleted":   "0",
-    "epoch_added":      "0",
-    "count_played":     "0",
-    "count_played_dup": "0",
+    "id":                            "0",
+    "asset_id":                      "0",
+    "publisher_id":                  "0",
+    "timestamp":                     "0",
+    "tag":                           "tag",
+    "time_start":                    "0",
+    "time_end":                      "0",
+    "status_deleted":                "0",
+    "epoch_added":                   "0",
+    "count_played":                  "0",
+    "count_played_dup":              "0",
     "asset": {
-        "id":                    "0",
-        "epoch_added":           "0",
-        "source":                "0",
-        "resource_id":           "0",
-        "thumb":                 "thumb",
-        "duration":              "0",
-        "status":                "status",
-        "status_deleted":        "0",
-        "recorded_at":           "0",
-        "title":                 "title",
-        "channel_id":            "0",
-        "game_id":               "0",
-        "publisher":             "publisher",
-        "publisher_original_id": "publisher_original_id",
-        "url":                   "url",
-        "storyboard_spec":       "0",
+        "id":                        "0",
+        "epoch_added":               "0",
+        "source":                    "0",
+        "resource_id":               "0",
+        "thumb":                     "thumb",
+        "duration":                  "0",
+        "status":                    "status",
+        "status_deleted":            "0",
+        "recorded_at":               "0",
+        "title":                     "title",
+        "channel_id":                "0",
+        "game_id":                   "0",
+        "publisher":                 "publisher",
+        "publisher_original_id":     "publisher_original_id",
+        "url":                       "url",
+        "storyboard_spec":           "0",
         "channel": {
             "channel_id":            "0",
             "partner":               "0",
-            "channel_name_original": "riotgames",
-            "channel_name":          "Riot Games"
+            "channel_name_original": "channel_name_original",
+            "channel_name":          "channel_name"
         }
     },
     "user": {
-        "id":           "0",
-        "display_name": "display_name",
-        "image":        "image",
-        "personalize":  "personalize",
-        "followers":    0
+        "id":                        "0",
+        "display_name":              "display_name",
+        "image":                     "image",
+        "personalize":               "personalize",
+        "followers":                 0
     }
 }
 ```
@@ -394,52 +394,52 @@ curl -X GET https://api.themoment.tv/v1/moments/twitch/asset/v66318170
 ```json
 [
     {
-        "id": "17391",
-        "asset_id": "1756",
-        "publisher_id": "1799",
-        "timestamp": "1463200771",
-        "tag": "test 51.30",
-        "time_start": "642",
-        "time_end": "662",
-        "status_deleted": "0",
-        "epoch_added": "1463200772",
-        "count_played": "0",
-        "count_played_dup": "4",
-        "asset": {
-            "id": "1756",
-            "epoch_added": "1463200772",
-            "source": "3",
-            "resource_id": "v66318170",
-            "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_riotgames-320x180.jpg",
-            "duration": "660.00",
-            "status": "recording",
-            "status_deleted": "0",
-            "recorded_at": "1463200099",
-            "title": "2016 Mid-Season Invitational: Semifinals Day 2",
-            "channel_id": "27",
-            "game_id": "2",
-            "publisher": "Riot Games",
-            "publisher_original_id": "riotgames",
-            "url": "https://www.twitch.tv/riotgames/v/66318170",
-            "storyboard_spec": "0",
-            "channel": {
-                "channel_id": "27",
-                "partner": "3",
-                "channel_name_original": "riotgames",
-                "channel_name": "Riot Games"
+        "id":                            "0",
+        "asset_id":                      "0",
+        "publisher_id":                  "0",
+        "timestamp":                     "0",
+        "tag":                           "tag",
+        "time_start":                    "0",
+        "time_end":                      "0",
+        "status_deleted":                "0",
+        "epoch_added":                   "0",
+        "count_played":                  "0",
+        "count_played_dup":              "0",
+        "asset":                         {
+            "id":                        "0",
+            "epoch_added":               "0",
+            "source":                    "0",
+            "resource_id":               "0",
+            "thumb":                     "thumb",
+            "duration":                  "0",
+            "status":                    "status",
+            "status_deleted":            "0",
+            "recorded_at":               "0",
+            "title":                     "title",
+            "channel_id":                "0",
+            "game_id":                   "0",
+            "publisher":                 "publisher",
+            "publisher_original_id":     "publisher_original_id",
+            "url":                       "url",
+            "storyboard_spec":           "0",
+            "channel":                   {
+                "channel_id":            "0",
+                "partner":               "0",
+                "channel_name_original": "channel_name_original",
+                "channel_name":          "channel_name"
             },
-            "game": {
-                "game_id": "2",
-                "partner": "3",
-                "game_name_original": "League of Legends"
+            "game":                      {
+                "game_id":               "0",
+                "partner":               "0",
+                "game_name_original":    "game_name_original"
             }
         },
-        "user": {
-            "id": "1799",
-            "display_name": "Angel “Txileno” Olórtegui",
-            "image": "https://lh5.googleusercontent.com/-v5CrSoB23jE/AAAAAAAAAAI/AAAAAAAAAFo/JSaoy5roaDg/photo.jpg?sz=50",
-            "personalize": "",
-            "followers": 10
+        "user":                          {
+            "id":                        "0",
+            "display_name":              "display_name",
+            "image":                     "image",
+            "personalize":               "",
+            "followers":                 0
         }
     },
     ....
