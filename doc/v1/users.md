@@ -51,11 +51,11 @@ display_name=Paul Smith" https://api.themoment.tv/v1/users
 ```json
 {
     "user": {
-        "id": "508",
-        "display_name": "Paul Smith",
-        "image": "https://lh5.googleusercontent.com/-7zm0FzqLBQw/AAAAAAAAAAI/AAAAAAAAAFQ/_gZf8WbbDa8/photo.jpg?sz=50",
-        "personalize": "{\"favorite_partner_channel\":\"twitch\\/showdowngg,twitch\\/ShowdownSmash,twitch\\/onenationofgames\",\"pNext_skip\":\"false\"}",
-        "followers": 8
+        "id":           "0",
+        "display_name": "display_name",
+        "image":        "image",
+        "personalize":  "personalize",
+        "followers":    0
     }
 }
 ```
