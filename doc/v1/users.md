@@ -30,7 +30,7 @@ Create new user.
 #### Nametag
 [user_create_endpoint](https://github.com/mPulseMedia/moment_api/search?l=php&q=__user_create_endpoint)
 
-### Parameters
+#### Parameters
 
 | Name | Required | Type | Description |
 | ---- | ---- | ---- | ---- |
@@ -38,7 +38,7 @@ Create new user.
 | gender | optional | string | Either m or f. Default is u (unspecified) |
 | display_name | optional | string | Publicly visible display name of the user |
 
-### Example Request
+#### Example Request
 
 ```bash
 curl --data "\
@@ -47,7 +47,7 @@ gender=male&\
 display_name=display_name" https://api.themoment.tv/v1/users
 ```
 
-### Example Response
+#### Example Response
 
 ```json
 {
@@ -73,13 +73,13 @@ Get user object.
 #### Nametag
 [user_get_endpoint](https://github.com/mPulseMedia/moment_api/search?l=php&q=__user_get_endpoint)
 
-### Example Request
+#### Example Request
 
 ```bash
 curl -X GET https://api.themoment.tv/v1/users/0
 ```
 
-### Example Response
+#### Example Response
 
 ```json
 {
@@ -104,20 +104,20 @@ Get user's playlists.
 #### Nametag
 [user_playlist_get_endpoint](https://github.com/mPulseMedia/moment_api/search?l=php&q=__user_playlist_get_endpoint)
 
-### Parameters
+#### Parameters
 
 | Name | Required | Type | Description |
 | ---- | ---- | ---- | ---- |
 | limit | optional | number | Number of playlists to be fetched. Default is 10 |
 | offset | optional | number | Allow to fetch playlists starting from a particular index. Default is 0 |
 
-### Example Request
+#### Example Request
 
 ```
 curl -X GET https://api.themoment.tv/v1/users/0/playlists?limit=1
 ```
 
-### Example Response
+#### Example Response
 
 ```json
 {
@@ -176,20 +176,20 @@ Get user's viewing history.
 #### Nametag
 [user_history_get_endpoint](https://github.com/mPulseMedia/moment_api/search?l=php&q=__user_history_get_endpoint)
 
-### Parameters
+#### Parameters
 
 | Name | Required | Type | Description |
 | ---- | ---- | ---- | ---- |
 | limit | optional | number | Number of playlists to be fetched. Default is 10 |
 | offset | optional | number | Allow to fetch playlists starting from a particular index. Default is 0 |
 
-### Example Request
+#### Example Request
 
 ```bash
 curl -X GET https://api.themoment.tv/v1/users/0/history?limit=1
 ```
 
-### Example Response
+#### Example Response
 
 ```json
 {
@@ -249,14 +249,14 @@ Add to user's viewing history.
 #### Nametag
 [user_history_add_endpoint](https://github.com/mPulseMedia/moment_api/search?l=php&q=__user_history_add_endpoint)
 
-### Parameters
+#### Parameters
 
 | Name | Required | Type | Description |
 | ---- | ---- | ---- | ---- |
 | object_id | required | number | Id of the moment or playlist |
 | object_type | required | string | Either m (moment) or p (playlist) |
 
-### Example Request
+#### Example Request
 
 ```bash
 curl --data "\
@@ -264,7 +264,7 @@ object_id=2871&\
 object_type=p" https://api.themoment.tv/v1/users/0/user_history_add
 ```
 
-### Example Response
+#### Example Response
 
 ```json
 {
