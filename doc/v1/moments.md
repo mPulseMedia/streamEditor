@@ -31,7 +31,7 @@ Create a new moment.
 
 | Name | Required | Type | Description |
 | ---- | ---- | ---- | ---- |
-| asset_source | required | string | Source of the moment (twitch, youtube, facebook, vimeo etc.) |
+| asset_source | required | string | Source of the moment (youtube, twitch, facebook, vimeo etc.) |
 | asset_resource_id | required | string | Partner specific ID of the asset |
 | time_start | required | number | Starting time of the moment. For live channel it should be the UTC timestamp |
 | tag | required | string | Tag of the moment |
@@ -52,11 +52,11 @@ Create a new moment.
 
 ```bash
 curl --data "\
-asset_source=twitch&\
-asset_resource_id=v77076652&\
-time_start=1468066157&\
-tag=LOL Rampage&\
-auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/moments
+asset_source=youtube&\
+asset_resource_id=0&\
+time_start=0&\
+tag=tag&\
+auid=0" https://api.themoment.tv/v1/moments
 ```
 
 #### Example Response
@@ -142,7 +142,7 @@ Create a new live tag moment.
 
 | Name | Required | Type | Description |
 | ---- | ---- | ---- | ---- |
-| asset_source | required | string | Source of the moment (twitch, youtube, facebook, vimeo, webex, etc.) |
+| asset_source | required | string | Source of the moment (youtube, twitch, facebook, vimeo, webex, etc.) |
 | asset_resource_id | required | string | Partner specific ID of the asset |
 | user_id | required | string | ID of the user |
 | api_key | required | string | API Key of the request |
@@ -153,11 +153,11 @@ Create a new live tag moment.
 
 ```bash
 curl --data "\
-asset_source=twitch&\
-asset_resource_id=v77076652&\
-user_id=79529&\
-tag=LOL Rampage&\
-api_key=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/moments/live
+asset_source=youtube&\
+asset_resource_id=0&\
+user_id=0&\
+tag=tag&\
+api_key=0" https://api.themoment.tv/v1/moments/live
 ```
 
 #### Example Response
@@ -228,11 +228,11 @@ Update a moment.
 
 ```bash
 curl --data "\
-tag=LOL Rampage&\
-time_start=11539&\
-time_end=11569&\
+tag=tag&\
+time_start=0&\
+time_end=0&\
 method=edit&\
-auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/moments/21061
+auid=0" https://api.themoment.tv/v1/moments/0
 ```
 
 #### Example Response
@@ -317,7 +317,7 @@ Get object data about an individual moment as identified by its id.
 #### Example Request
 
 ```bash
-curl -X GET https://api.themoment.tv/v1/moments/2599
+curl -X GET https://api.themoment.tv/v1/moments/0
 ```
 
 #### Example Response
@@ -376,17 +376,17 @@ curl -X GET https://api.themoment.tv/v1/moments/2599
 ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)
 ## https://api.theMoment.tv/v1/moments/{partner}/asset/{id}
 
-Get moments associated with a video. Partner can be twitch, youtube, facebook, vimeo etc and id is the video ID.
+Get moments associated with a video. Partner can be Youtube, Twitch, Vimeo etc. and id is the video ID.
 
 #### Nametag
 [moment_partner_asset_endpoint](https://github.com/mPulseMedia/moment_api/search?l=php&q=__moment_partner_asset_endpoint)
 
 #### Example Request
 
-The following example gets all moments associated with the twitch video v66318170
+The following example gets all moments associated with the Youtube video 0
 
 ```bash
-curl -X GET https://api.themoment.tv/v1/moments/twitch/asset/v66318170
+curl -X GET https://api.themoment.tv/v1/moments/youtube/asset/0
 ```
 
 #### Example Response
@@ -466,5 +466,5 @@ Delete moment with given ID.
 The following example delete moment with given ID.
 
 ```bash
-curl -X DELETE https://api.themoment.tv/v1/moments/123
+curl -X DELETE https://api.themoment.tv/v1/moments/0
 ```
