@@ -98,6 +98,7 @@ Host
 
 - [inst](http://app-dev.themoment.tv/nametag.php#inst) - aws instances
 - [config](http://app-dev.themoment.tv/nametag.php#conf) - configuration scripts
+- [db](http://app-dev.themoment.tv/nametag.php#db) - database organization
 - [table](http://app-dev.themoment.tv/nametag.php#table) - table organization
 
 ------------------------------------------------
