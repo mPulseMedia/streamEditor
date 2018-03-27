@@ -12,7 +12,7 @@ Moments are individual highlights within a live stream/video.
 | [![PUT](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/put.png)](#moment_update_endpoint) | [https://api.theMoment.tv/v1/moments/{id}](#moment_update_endpoint) | Update a moment |
 | [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)](#moment_get_endpoint) | [https://api.theMoment.tv/v1/moments/{id}](#moment_get_endpoint) | Get a moment object |
 | [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)](#moment_partner_asset_endpoint) |  [https://api.theMoment.tv/v1/moments/{partner}/asset/{id}](#moment_partner_asset_endpoint) | Get moments associated with a video |
-| [![DELETE](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/delete.png)](#moment_delete) |  [https://api.theMoment.tv/v1/moments/{id}](#moment_delete) | Delete moment |
+| [![DELETE](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/delete.png)](#moment_delete) |  [https://api.theMoment.tv/v1/moments/{id}](#moment_delete_endpoint) | Delete moment |
 
 ------------------------------------------------
 <a name="moment_create_endpoint"></a>
