@@ -63,64 +63,64 @@ auid=sxFBpEoXAq8MVgcFSRPOfEgvdRUPwK0m" https://api.themoment.tv/v1/moments
 
 ```json
 {
-    "id":                 "0",
-    "asset_id":           "0",
-    "publisher_id":       "0",
-    "tag":                "tag",
-    "time_start":         "0",
-    "timestamp":          "0",
-    "time_end":           "0",
-    "time_percent_start": "0",
-    "time_percent_end":   "0",
-    "status_public":      "0",
-    "status_blocked":     "0",
-    "status_deleted":     "0",
-    "count_played":       "0",
-    "count_played_dup":   "0",
-    "count_shared":       "0",
-    "search_string":      "search_string",
-    "copy_moment_id":     "0",
-    "goto_moment_id":     "0",
-    "epoch_added":        "0",
+    "id":                            "0",
+    "asset_id":                      "0",
+    "publisher_id":                  "0",
+    "tag":                           "tag",
+    "time_start":                    "0",
+    "timestamp":                     "0",
+    "time_end":                      "0",
+    "time_percent_start":            "0",
+    "time_percent_end":              "0",
+    "status_public":                 "0",
+    "status_blocked":                "0",
+    "status_deleted":                "0",
+    "count_played":                  "0",
+    "count_played_dup":              "0",
+    "count_shared":                  "0",
+    "search_string":                 "search_string",
+    "copy_moment_id":                "0",
+    "goto_moment_id":                "0",
+    "epoch_added":                   "0",
     "asset": {
-        "id":                    "0",
-        "epoch_added":           "0",
-        "source":                "0",
-        "resource_id":           "0",
-        "thumb":                 "thumb",
-        "duration":              "0",
-        "status":                "status",
-        "status_deleted":        "0",
-        "recorded_at":           "0",
-        "title":                 "title",
-        "channel_id":            "0",
-        "game_id":               "0",
-        "publisher":             "publisher",
-        "publisher_original_id": "publisher_original_id",
-        "url":                   "url",
-        "storyboard_spec":       "0",
-        "channel":                   {
+        "id":                        "0",
+        "epoch_added":               "0",
+        "source":                    "0",
+        "resource_id":               "0",
+        "thumb":                     "thumb",
+        "duration":                  "0",
+        "status":                    "status",
+        "status_deleted":            "0",
+        "recorded_at":               "0",
+        "title":                     "title",
+        "channel_id":                "0",
+        "game_id":                   "0",
+        "publisher":                 "publisher",
+        "publisher_original_id":     "publisher_original_id",
+        "url":                       "url",
+        "storyboard_spec":           "0",
+        "channel": {
             "channel_id":            "0",
             "partner":               "0",
             "channel_name_original": "channel_name_original",
             "channel_name":          "channel_name"
         },
-        "game":                      {
-            "game_id":            "0",
-            "partner":            "0",
-            "game_name_original": "game_name_original"
+        "game": {
+            "game_id":               "0",
+            "partner":               "0",
+            "game_name_original":    "game_name_original"
         }
     },
     "user": {
-        "id":           "0",
-        "display_name": "display_name",
-        "image":        "image",
-        "personalize":  "personalize",
-        "followers":    0
+        "id":                        "0",
+        "display_name":              "display_name",
+        "image":                     "image",
+        "personalize":               "personalize",
+        "followers":                 0
     },
     "addedTo": [{
-        "id":    "0",
-        "title": "title"
+        "id":                        "0",
+        "title":                     "title"
     }]
 }
 ```
