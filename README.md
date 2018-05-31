@@ -1,8 +1,8 @@
 <a name="top"></a>
 
-# streamEditor API v1
+# theMoment API v1
 
-The streamEditor library adds functionality to live streams and video players. It allows users to mark highlights (or moments) and group them into remixes (or playlists) to replay and share -- even while the live event is still happening.
+The Moment library adds functionality to live streams and video players. It allows users to mark highlights (or moments) and group them into remixes (or playlists) to replay and share -- even while the live event is still happening.
 
 <img src="https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/screenshot.png" width="75%" height="75%" />
 
