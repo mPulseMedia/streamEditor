@@ -8,6 +8,7 @@ Moments are individual highlights within a live stream/video.
 |         | Endpoint | Description |
 | ------- |-------- | ----------- |
 | [![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)](#moment_create_endpoint) | [https://api.theMoment.tv/v1/moments](#moment_create_endpoint) | Create a new moment |
+| [![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)](#moment_create_live_endpoint) | [https://api.theMoment.tv/v1/moments/live](#moment_create_live_endpoint) | Create a new moment at a live event |
 | [![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)](#moment_live_endpoint) | [https://api.theMoment.tv/v1/moments/live](#moment_live_endpoint) | Create a new live tag moment|
 | [![PUT](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/put.png)](#moment_update_endpoint) | [https://api.theMoment.tv/v1/moments/{id}](#moment_update_endpoint) | Update a moment |
 | [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)](#moment_get_endpoint) | [https://api.theMoment.tv/v1/moments/{id}](#moment_get_endpoint) | Get a moment object |
@@ -126,17 +127,17 @@ auid=0" https://api.themoment.tv/v1/moments
 ```
 
 ------------------------------------------------
-<a name="moment_live_endpoint"></a>
+<a name="moment_create_live_endpoint"></a>
 [<](#top)
 
 ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)
 ## https://api.theMoment.tv/v1/moments/live
 
-Create a new live tag moment.
+Create a new live tag moment at an event.
 
 #### Nametag
 
-[moment_live_endpoint](https://github.com/mPulseMedia/moment_api/search?l=php&q=__moment_live_endpoint)
+[moment_create_live_endpoint](https://github.com/mPulseMedia/moment_api/search?l=php&q=__moment_create_live_endpoint)
 
 #### Parameters
 
@@ -152,12 +153,7 @@ Create a new live tag moment.
 #### Example Request
 
 ```bash
-curl --data "\
-asset_source=youtube&\
-asset_resource_id=0&\
-user_id=0&\
-tag=tag&\
-api_key=0" https://api.themoment.tv/v1/moments/live
+curl --data "event_id=123&user_id=456&tag=anytag" --header "api_key: xyz" https://api.themoment.tv/v1/moments/live
 ```
 
 #### Example Response
