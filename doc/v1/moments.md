@@ -153,15 +153,15 @@ Create a new live tag moment at an event.
 #### Example Request
 
 ```bash
-curl --data "event_id=123&user_id=456&tag=Wow" --header "api_key: xyz" https://api.themoment.tv/v1/moments/live
+curl --data "event_id=1000&user_id=12345&tag=Wow" --header "api_key: xyz" https://api.themoment.tv/v1/moments/live
 ```
 
 #### Example Response
 
 ```json
 {
-    "event_id":                             0,
-    "user_id":                              0,
+    "event_id":                             1000,
+    "user_id":                              12345,
     "tag":                                  "Wow",
     "moment_id":                            3242
 }
