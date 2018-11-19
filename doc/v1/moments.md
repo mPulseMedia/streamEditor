@@ -133,7 +133,7 @@ auid=0" https://api.themoment.tv/v1/moments
 ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)
 ## https://api.theMoment.tv/v1/moments/live
 
-Create a new live tag moment at an event.
+Create a new moment at a live event.
 
 #### Nametag
 
