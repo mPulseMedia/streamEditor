@@ -148,7 +148,7 @@ Create a new live tag moment at an event.
 | user_id | required | string | Partner-specific ID of the asset |
 | | | | |
 | tag | optional | string | Tag of the moment |
-| session_id | required | string | ID of session if event runs consurrent sessions |
+| session_id | required | string | ID of session if event runs concurrent sessions |
 
 #### Example Request
 
