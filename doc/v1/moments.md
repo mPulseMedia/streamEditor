@@ -143,56 +143,27 @@ Create a new live tag moment at an event.
 
 | Name | Required | Type | Description |
 | ---- | ---- | ---- | ---- |
-| asset_source | required | string | Source of the moment (youtube, twitch, facebook, vimeo, webex, etc.) |
-| asset_resource_id | required | string | Partner specific ID of the asset |
-| user_id | required | string | ID of the user |
 | api_key | required | string | API Key of the request |
+| event_id | required | string | Unique identifier of event |
+| user_id | required | string | Partner-specific ID of the asset |
+| | | | |
 | tag | optional | string | Tag of the moment |
-
+| session_id | required | string | ID of session if event runs consurrent sessions |
 
 #### Example Request
 
 ```bash
-curl --data "event_id=123&user_id=456&tag=anytag" --header "api_key: xyz" https://api.themoment.tv/v1/moments/live
+curl --data "event_id=123&user_id=456&tag=Wow" --header "api_key: xyz" https://api.themoment.tv/v1/moments/live
 ```
 
 #### Example Response
 
 ```json
 {
-    "id":                            0,
-    "asset_id":                      0,
-    "publisher_id":                  0,
-    "tag":                           "tag",
-    "time_start":                    0,
-    "timestamp":                     0,
-    "time_end":                      0,
-    "asset": {
-        "id":                        0,
-        "resource_id":               0,
-        "thumb":                     "thumb",
-        "duration":                  0,
-        "status":                    "status",
-        "recorded_at":               0,
-        "title":                     "title",
-        "url":                       "url",
-        "channel": {
-            "channel_id":            0,
-            "channel_name_original": "channel_name_original",
-            "channel_name":          "channel_name"
-        }
-    },
-    "user": {
-        "id":                        0,
-        "display_name":              "display_name",
-        "image":                     "",
-        "followers":                 0
-    },
-    "addedTo": [{
-        "id":                        0,
-        "title":                     "title",
-        "moment_count":              3
-    }]
+    "event_id":                             0,
+    "user_id":                              0,
+    "tag":                                  "Wow",
+    "moment_id":                            3242
 }
 ```
 
