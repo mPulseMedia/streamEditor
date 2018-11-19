@@ -17,7 +17,7 @@ Moments are individual highlights within a live stream/video.
 
 ------------------------------------------------
 <a name="moment_create_endpoint"></a>
-[<](#top)
+[<TOP](#top)
 
 ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)
 ## https://api.theMoment.tv/v1/moments
@@ -128,7 +128,7 @@ auid=0" https://api.themoment.tv/v1/moments
 
 ------------------------------------------------
 <a name="moment_create_live_endpoint"></a>
-[<](#top)
+[<TOP](#top)
 
 ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)
 ## https://api.theMoment.tv/v1/moments/live
@@ -198,7 +198,7 @@ curl --data "event_id=123&user_id=456&tag=anytag" --header "api_key: xyz" https:
 
 ------------------------------------------------
 <a name="moment_update_endpoint"></a>
-[<](#top)
+[<TOP](#top)
 
 ![PUT](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/put.png)
 ## https://api.theMoment.tv/v1/moments/{id}
@@ -298,7 +298,7 @@ auid=0" https://api.themoment.tv/v1/moments/0
 ```
 ------------------------------------------------
 <a name="moment_get_endpoint"></a>
-[<](#top)
+[<TOP](#top)
 
 ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)
 ## https://api.theMoment.tv/v1/moments/{id}
@@ -367,7 +367,7 @@ curl -X GET https://api.themoment.tv/v1/moments/0
 ------------------------------------------------
 
 <a name="moment_partner_asset_endpoint"></a>
-[<](#top)
+[<TOP](#top)
 
 ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)
 ## https://api.theMoment.tv/v1/moments/{partner}/asset/{id}
@@ -447,7 +447,7 @@ curl -X GET https://api.themoment.tv/v1/moments/youtube/asset/0
 ------------------------------------------------
 
 <a name="moment_delete_endpoint"></a>
-[<](#top)
+[<TOP](#top)
 
 ![DELETE](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/delete.png)
 ## https://api.theMoment.tv/v1/moments/{id}

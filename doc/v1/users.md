@@ -20,7 +20,7 @@ APIs for end-users and and app clients.
 
 ------------------------------------------------
 <a name="user_create_endpoint"></a>
-[<](#top)
+[<TOP](#top)
 
 ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)
 ## https://api.theMoment.tv/v1/users
@@ -63,7 +63,7 @@ display_name=display_name" https://api.themoment.tv/v1/users
 
 ------------------------------------------------
 <a name="user_get_endpoint"></a>
-[<](#top)
+[<TOP](#top)
 
 ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)
 ## https://api.theMoment.tv/v1/users/{id}/
@@ -94,7 +94,7 @@ curl -X GET https://api.themoment.tv/v1/users/0
 ```
 
 ------------------------------------------------
-<a name="user_playlist_get_endpoint"></a>[<](#top)
+<a name="user_playlist_get_endpoint"></a>[<TOP](#top)
 
 ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)
 ## https://api.theMoment.tv/v1/users/{id}/playlists
@@ -166,7 +166,7 @@ curl -X GET https://api.themoment.tv/v1/users/0/playlists?limit=1
 
 ------------------------------------------------
 <a name="user_history_get_endpoint"></a>
-[<](#top)
+[<TOP](#top)
 
 ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)
 ## https://api.theMoment.tv/v1/users/{id}/history
@@ -239,7 +239,7 @@ curl -X GET https://api.themoment.tv/v1/users/0/history?limit=1
 ------------------------------------------------
 
 <a name="user_history_add_endpoint"></a>
-[<](#top)
+[<TOP](#top)
 
 ![PUT](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/put.png)
 ## https://api.theMoment.tv/v1/users/{id}/user_history_add
@@ -276,7 +276,7 @@ object_type=p" https://api.themoment.tv/v1/users/0/user_history_add
 ------------------------------------------------
 
 <a name="user_delete_endpoint"></a>
-[<](#top)
+[<TOP](#top)
 
 ![DELETE](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/delete.png)
 ## https://api.theMoment.tv/v1/users/{id}

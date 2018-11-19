@@ -17,7 +17,7 @@ Playlists, or 'remixes' as presented to users, are a series of moments/highlight
 
 ------------------------------------------------
 <a name="playlist_create_endpoint"></a>
-[<](#top)
+[<TOP](#top)
 
 ![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)
 ## https://api.theMoment.tv/v1/playlists
@@ -89,7 +89,7 @@ auid=0" https://api.themoment.tv/v1/playlists
 
 ------------------------------------------------
 <a name="playlist_update_endpoint"></a>
-[<](#top)
+[<TOP](#top)
 
 ![PUT](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/put.png)
 ## https://api.theMoment.tv/v1/playlists/{id}
@@ -153,7 +153,7 @@ auid=0" https://api.themoment.tv/v1/playlists/0
 
 ------------------------------------------------
 <a name="playlist_get_endpoint"></a>
-[<](#top)
+[<TOP](#top)
 
 ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)
 ## https://api.theMoment.tv/v1/playlists/{id}
@@ -314,7 +314,7 @@ curl -X GET https://api.themoment.tv/v1/playlists/0?limit=10
 
 ------------------------------------------------
 <a name="playlist_partner_asset_endpoint"></a>
-[<](#top)
+[<TOP](#top)
 
 ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)
 ## https://api.theMoment.tv/v1/playlists/{partner}/asset/{id}
@@ -448,7 +448,7 @@ curl -X GET https://api.themoment.tv/v1/playlists/youtube/asset/0?limit=1&offset
 
 ------------------------------------------------
 <a name="playlist_partner_channel_endpoint"></a>
-[<](#top)
+[<TOP](#top)
 
 ![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)
 ## https://api.theMoment.tv/v1/playlists/{partner}/channel/{id}
@@ -577,7 +577,7 @@ curl -X GET https://api.themoment.tv/v1/playlists/youtube/channel/channel_name?l
 
 ------------------------------------------------
 <a name="playlist_moment_position_set_endpoint"></a>
-[<](#top)
+[<TOP](#top)
 
 ![PUT](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/put.png)
 ## https://api.theMoment.tv/v1/playlists/{id}/moment_position_set
@@ -616,7 +616,7 @@ moment_id=0" https://api.themoment.tv/v1/playlists/0/moment_position_set
 
 ------------------------------------------------
 <a name="playlist_delete_endpoint"></a>
-[<](#top)
+[<TOP](#top)
 
 ![PUT](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/delete.png)
 ## https://api.theMoment.tv/v1/playlists/{id}
