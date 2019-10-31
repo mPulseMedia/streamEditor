@@ -1,6 +1,6 @@
 <a name="top"></a>
 
-# theMoment API v1
+# theMoment API v1.3
 
 The Moment library adds functionality to live streams and video players. It allows users to mark highlights (or moments) and group them into remixes (or playlists) to replay and share -- even while the live event is still happening.
 
