@@ -9,7 +9,6 @@ Moments are individual highlights within a live stream/video.
 | ------- |-------- | ----------- |
 | [![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)](#moment_create_endpoint) | [https://api.theMoment.tv/v1/moments](#moment_create_endpoint) | Create a new moment |
 | [![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)](#moment_create_live_endpoint) | [https://api.theMoment.tv/v1/moments/live](#moment_create_live_endpoint) | Create a new moment at a live event |
-| [![POST](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/post.png)](#moment_live_endpoint) | [https://api.theMoment.tv/v1/moments/live](#moment_live_endpoint) | Create a new live tag moment|
 | [![PUT](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/put.png)](#moment_update_endpoint) | [https://api.theMoment.tv/v1/moments/{id}](#moment_update_endpoint) | Update a moment |
 | [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)](#moment_get_endpoint) | [https://api.theMoment.tv/v1/moments/{id}](#moment_get_endpoint) | Get a moment object |
 | [![GET](https://s3-us-west-2.amazonaws.com/themoment-s3-bucket/document/get.png)](#moment_partner_asset_endpoint) |  [https://api.theMoment.tv/v1/moments/{partner}/asset/{id}](#moment_partner_asset_endpoint) | Get moments associated with a video |
